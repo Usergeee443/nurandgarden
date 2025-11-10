@@ -1,0 +1,36 @@
+.preloader {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background-color: #ffffff;
+  z-index: 2000;
+  transition: opacity 600ms ease, visibility 600ms ease;
+}
+
+.preloader--hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.preloader__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.preloader__inner img {
+  width: 160px;
+  max-width: 40vw;
+  filter: drop-shadow(0 8px 30px rgba(0, 0, 0, 0.08));
+}
+
+.preloader__label {
+  font-size: 1.125rem;
+  letter-spacing: 0.36em;
+  text-transform: uppercase;
+  color: var(--color-text-primary);
+}
+

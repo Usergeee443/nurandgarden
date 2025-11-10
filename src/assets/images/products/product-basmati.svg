@@ -1,0 +1,8 @@
+<svg width="600" height="800" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="800" rx="48" fill="#F0E8DA"/>
+  <rect x="60" y="80" width="480" height="640" rx="36" fill="#FFFFFF" stroke="#BDAF98" stroke-width="6"/>
+  <path d="M160 360c40-120 160-160 260-110s140 160 100 260c-40 100-160 160-260 110s-140-160-100-260z" fill="#DDD1C0"/>
+  <path d="M340 260c40 0 110 60 110 150s-70 150-140 170-140-20-140-110 80-210 170-210z" fill="#CCBDA8"/>
+  <text x="50%" y="620" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="48" fill="#3C3C3C">Basmati</text>
+</svg>
+

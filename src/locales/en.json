@@ -1,0 +1,319 @@
+{
+  "brand": {
+    "name": "Nur & Garden",
+    "tagline": "Where luxury meets nature"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact",
+    "gallery": "Gallery"
+  },
+  "home": {
+    "hero": {
+      "scrollHint": "Scroll down",
+      "slides": {
+        "luxuryGarden": {
+          "title": "Luxury in every grain",
+          "caption": "Discover our premium rice collection."
+        },
+        "fromNature": {
+          "title": "From nature to your table",
+          "caption": "Pure care and authenticity in every product."
+        },
+        "ecoConcept": {
+          "title": "Eco concept packaging",
+          "caption": "Balancing refinement and sustainability."
+        }
+      }
+    },
+    "philosophy": {
+      "title": "Our Philosophy",
+      "items": {
+        "purity": {
+          "title": "Purity in Every Grain",
+          "description": "Meticulous selection to preserve natural essence."
+        },
+        "sustainability": {
+          "title": "Sustainability First",
+          "description": "We honor soil and water with every harvest."
+        },
+        "care": {
+          "title": "From Nature, With Care",
+          "description": "Craftsmanship guided by tradition and respect."
+        }
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "steps": {
+        "seed": {
+          "title": "Seed Selection",
+          "description": "We hand-pick heritage varieties for character and quality."
+        },
+        "cultivation": {
+          "title": "Natural Cultivation",
+          "description": "Sustainable farming nurtured by sun, soil, and patience."
+        },
+        "packaging": {
+          "title": "Hand Packaging",
+          "description": "Each batch is refined and packaged with human attention."
+        },
+        "quality": {
+          "title": "Quality Control",
+          "description": "Every grain is inspected to uphold Nur & Garden standards."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "items": [
+        {
+          "name": "Dilshod M.",
+          "quote": "Nur & Garden brings a sense of trust back to our family table."
+        },
+        {
+          "name": "Sofia L.",
+          "quote": "Refined taste and elegant presentation — it elevates every meal."
+        },
+        {
+          "name": "Kenji W.",
+          "quote": "The aroma, the texture, the story — everything feels crafted."
+        },
+        {
+          "name": "Amina R.",
+          "quote": "Sustainably grown and beautifully curated. We love it."
+        }
+      ]
+    },
+    "partners": {
+      "title": "Our Partners"
+    },
+    "cta": {
+      "title": "Bring Nature to Your Table.",
+      "button": "Contact Us"
+    },
+    "highlights": {
+      "title": "Discover Nur & Garden",
+      "items": [
+        {
+          "title": "About Our Legacy",
+          "description": "Step into our story to see how tradition and innovation meet.",
+          "button": "Read More",
+          "href": "/about"
+        },
+        {
+          "title": "Explore The Collection",
+          "description": "Meet the curated rice selection designed for elevated dining.",
+          "button": "View Products",
+          "href": "/products"
+        },
+        {
+          "title": "Connect With Us",
+          "description": "Let’s create memorable experiences together — start the conversation.",
+          "button": "Get in Touch",
+          "href": "/contact"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "contact": "Contacts",
+    "rights": "© 2025 Nur & Garden. All rights reserved."
+  },
+  "about": {
+    "heroTitle": "About Nur & Garden",
+    "heroSubtitle": "Respect for nature, devotion to tradition, understated luxury.",
+    "ourStory": {
+      "title": "Our story",
+      "body": "Nur & Garden was born on the fertile lands of Samarkand. Each grain of rice is the patient gift of nature. We blend generational expertise with contemporary technology to deliver impeccable taste and enduring quality."
+    },
+    "ourValues": {
+      "title": "Our values",
+      "items": {
+        "quality": {
+          "title": "Quality",
+          "description": "Meticulous control at every stage of production."
+        },
+        "sustainability": {
+          "title": "Sustainability",
+          "description": "Caring for the soil and future generations."
+        },
+        "tradition": {
+          "title": "Tradition",
+          "description": "Inspired by family heritage and culture."
+        }
+      }
+    }
+  },
+  "products": {
+    "heroTitle": "Our products",
+    "heroSubtitle": "Curated for a refined table.",
+    "filters": {
+      "searchPlaceholder": "Search products...",
+      "categoryLabel": "Categories",
+      "noResults": "No products matched your search."
+    },
+    "detailLabels": {
+      "origin": "Origin",
+      "notes": "Tasting notes",
+      "pairing": "Pairing suggestions"
+    },
+    "categories": {
+      "all": "All",
+      "premium": "Premium Selection",
+      "organic": "Organic Collection",
+      "signature": "Signature Line",
+      "wellness": "Wellness Essentials"
+    },
+    "cards": {
+      "jasmine": {
+        "name": "Premium Jasmine",
+        "description": "Delicate aroma with a soft finish."
+      },
+      "basmati": {
+        "name": "Royal Basmati",
+        "description": "Long-grain rice ideal for pilaf."
+      },
+      "organic": {
+        "name": "Organic Harmony",
+        "description": "100% organically cultivated rice."
+      },
+      "black": {
+        "name": "Velvet Noir",
+        "description": "Black rice rich in antioxidants."
+      },
+      "brown": {
+        "name": "Golden Brown",
+        "description": "Whole grain with abundant fiber."
+      },
+      "fusion": {
+        "name": "Silk Fusion",
+        "description": "East and West flavors in harmony."
+      }
+    },
+    "cta": "Learn more",
+    "details": {
+      "jasmine": {
+        "longDescription": "Nur & Garden Jasmine is selected for its floral bouquet and silken texture. Each grain carries a luminous, gentle finish that elevates light, aromatic dishes.",
+        "origin": "Southwestern Samarkand valley",
+        "notes": [
+          "Feather-light, tender texture",
+          "Graceful floral fragrance",
+          "Quick, even cooking"
+        ],
+        "pairing": [
+          "Delicate vegetable courses",
+          "Seafood pairings",
+          "Soy-based sauces"
+        ]
+      },
+      "basmati": {
+        "longDescription": "Royal Basmati is crafted for celebratory tables and impeccable pilaf. Long grains remain separated when cooked, preserving structure and aroma.",
+        "origin": "Foothills of Zarafshan",
+        "notes": [
+          "Elongated, resilient grains",
+          "Toasted nut undertones",
+          "Absorbs spices and butter beautifully"
+        ],
+        "pairing": [
+          "Traditional pilaf",
+          "Roasted meats",
+          "Rich sauces"
+        ]
+      },
+      "organic": {
+        "longDescription": "Organic Harmony is grown with certified organic practices. A balanced profile and authentic taste make it a wholesome daily staple.",
+        "origin": "Carefully monitored eco fields",
+        "notes": [
+          "Cultivated without chemical inputs",
+          "Natural, gently nutty flavor",
+          "High nutritional value"
+        ],
+        "pairing": [
+          "Clean-eating menus",
+          "Vegetable gratins",
+          "Bright breakfast bowls"
+        ]
+      },
+      "black": {
+        "longDescription": "Velvet Noir black rice is naturally rich in antioxidants. Its dramatic color and layered taste bring a touch of couture to the table.",
+        "origin": "Samarkand mountain slopes",
+        "notes": [
+          "Naturally high in anthocyanins",
+          "Deep, subtly sweet profile",
+          "High-gloss, captivating hue"
+        ],
+        "pairing": [
+          "Rice-based desserts",
+          "Dark chocolate creations",
+          "Gourmet salads"
+        ]
+      },
+      "brown": {
+        "longDescription": "Golden Brown wholegrain rice delivers fiber and essential vitamins. An essential companion for mindful wellness routines.",
+        "origin": "Irrigated terraces with mineral-rich soil",
+        "notes": [
+          "Abundant natural fiber",
+          "Nut-forward savoriness",
+          "Pleasant al dente bite"
+        ],
+        "pairing": [
+          "Wholesome salads",
+          "Herb-forward dishes",
+          "Charred seasonal vegetables"
+        ]
+      },
+      "fusion": {
+        "longDescription": "Silk Fusion harmonizes oriental elegance with modern gastronomy. Its bespoke blend is curated in limited micro-batches.",
+        "origin": "Nur & Garden signature blend",
+        "notes": [
+          "Balanced East-meets-West flavor",
+          "Supple, satin-like mouthfeel",
+          "Vivid, memorable aromatics"
+        ],
+        "pairing": [
+          "Contemporary fusion cuisine",
+          "Vegetable wok sautés",
+          "Exotic dressings and glazes"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "heroTitle": "Get in touch",
+    "detailsTitle": "Contact details",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "addressValue": "Samarkand, Uzbekistan",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send message",
+      "success": "Your message has been sent successfully."
+    }
+  },
+  "gallery": {
+    "heroTitle": "Nur & Garden gallery",
+    "heroSubtitle": "Experience authentic elegance through real imagery.",
+    "captions": {
+      "atelier": "Packaging craft inside the atelier",
+      "fields": "Dawn across Samarkand fields",
+      "packaging": "Detail of our eco packaging",
+      "table": "Minimalist tablescape styling",
+      "grain": "Close-up of polished grains",
+      "harvest": "Harvest moments in motion"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "learnMore": "Learn more",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous"
+  }
+}
+

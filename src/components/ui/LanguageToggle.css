@@ -1,0 +1,40 @@
+.language-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.language-toggle__btn {
+  font-size: 0.9375rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding-bottom: 0.25rem;
+  position: relative;
+  color: var(--color-text-muted);
+}
+
+.language-toggle__btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--color-text-primary);
+  transition: width var(--transition-base);
+}
+
+.language-toggle__btn:hover,
+.language-toggle__btn:focus-visible {
+  color: var(--color-text-primary);
+}
+
+.language-toggle__btn--active {
+  color: var(--color-text-primary);
+  font-weight: 600;
+}
+
+.language-toggle__btn--active::after {
+  width: 100%;
+}
+

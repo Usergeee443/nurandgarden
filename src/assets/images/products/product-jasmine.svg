@@ -1,0 +1,8 @@
+<svg width="600" height="800" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="800" rx="48" fill="#F5EFE6"/>
+  <rect x="60" y="80" width="480" height="640" rx="36" fill="#FFFFFF" stroke="#C8BBA8" stroke-width="6"/>
+  <path d="M180 280c30-80 120-120 210-90s120 120 90 210c-30 90-120 140-210 110s-120-120-90-210z" fill="#E5DCCD"/>
+  <path d="M300 240c20 0 60 20 60 80s-40 100-100 120-120 0-120-80 80-140 160-120z" fill="#D8CCBA"/>
+  <text x="50%" y="620" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="48" fill="#3C3C3C">Jasmine</text>
+</svg>
+

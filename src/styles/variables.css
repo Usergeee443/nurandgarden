@@ -1,0 +1,16 @@
+:root {
+  --color-background: #ffffff;
+  --color-surface: #f5efe6;
+  --color-surface-alt: #ede5d6;
+  --color-text-primary: #3c3c3c;
+  --color-text-muted: rgba(60, 60, 60, 0.72);
+  --color-highlight: #ede5d6;
+
+  --font-primary: "Cormorant Garamond", serif;
+  --font-secondary: "Cormorant Garamond", serif;
+
+  --header-height: 88px;
+
+  --transition-base: 240ms ease;
+}
+

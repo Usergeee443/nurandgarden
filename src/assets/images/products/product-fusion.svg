@@ -1,0 +1,8 @@
+<svg width="600" height="800" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="800" rx="48" fill="#EDE5D6"/>
+  <rect x="60" y="80" width="480" height="640" rx="36" fill="#FFFFFF" stroke="#C7B8A1" stroke-width="6"/>
+  <path d="M160 340c50-120 200-150 320-80s160 220 80 300-220 90-320 20-120-160-80-240z" fill="#DCD1C3"/>
+  <path d="M220 520c60-60 150-40 210 10s70 150 10 190-170 30-230-50-30-120 10-150z" fill="#CFC2B1"/>
+  <text x="50%" y="620" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="44" fill="#3C3C3C">Silk Fusion</text>
+</svg>
+

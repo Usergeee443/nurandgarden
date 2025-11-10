@@ -1,0 +1,319 @@
+{
+  "brand": {
+    "name": "Nur & Garden",
+    "tagline": "Hashamat va tabiat uygʻunligi"
+  },
+  "navigation": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "products": "Mahsulotlar",
+    "contact": "Aloqa",
+    "gallery": "Galereya"
+  },
+  "home": {
+    "hero": {
+      "scrollHint": "Pastga siljiting",
+      "slides": {
+        "luxuryGarden": {
+          "title": "Har bir donada hashamat",
+          "caption": "Premial guruch kolleksiyamiz bilan tanishing."
+        },
+        "fromNature": {
+          "title": "Tabiatdan dasturxoningizga",
+          "caption": "Har bir mahsulotimizda tabiiylik va gʻamxoʻrlik mujassam."
+        },
+        "ecoConcept": {
+          "title": "Ekologik qadoqlash konsepti",
+          "caption": "Hashamat va ekologiya uygʻunligi."
+        }
+      }
+    },
+    "philosophy": {
+      "title": "Bizning falsafamiz",
+      "items": {
+        "purity": {
+          "title": "Har bir donada poklik",
+          "description": "Tabiiylikni asrash uchun sinchkov tanlov."
+        },
+        "sustainability": {
+          "title": "Barqarorlik birinchi o‘rinda",
+          "description": "Har bir hosilda yer va suvga hurmat."
+        },
+        "care": {
+          "title": "Tabiatdan, mehr bilan",
+          "description": "An’ana va ehtirom bilan boshqarilgan mahorat."
+        }
+      }
+    },
+    "process": {
+      "title": "Bizning jarayon",
+      "steps": {
+        "seed": {
+          "title": "Urug‘ tanlash",
+          "description": "Xarakter va sifat uchun merosiy navlarni qo‘lda tanlaymiz."
+        },
+        "cultivation": {
+          "title": "Tabiiy parvarish",
+          "description": "Quyosh, tuproq va sabr uyg‘unidagi barqaror dehqonchilik."
+        },
+        "packaging": {
+          "title": "Qo‘lda qadoqlash",
+          "description": "Har bir partiya e’tibor bilan saralanib, qadoqlanadi."
+        },
+        "quality": {
+          "title": "Sifat nazorati",
+          "description": "Har bir don Nur & Garden standartlariga mos tekshiriladi."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Fikrlar",
+      "items": [
+        {
+          "name": "Dilshod M.",
+          "quote": "Nur & Garden — bu sifat va ishonchni yana dasturxonimizga qaytardi."
+        },
+        {
+          "name": "Sofia L.",
+          "quote": "Yuqori ta’mi va nafis taqdimoti har bir ovqatni boyitadi."
+        },
+        {
+          "name": "Kenji W.",
+          "quote": "Hidi, tuzilmasi, hikoyasi — barchasi mahorat bilan yaratilgan."
+        },
+        {
+          "name": "Amina R.",
+          "quote": "Barqaror yetishtirilgan, did bilan tanlangan. Bizga juda yoqdi."
+        }
+      ]
+    },
+    "partners": {
+      "title": "Hamkorlarimiz"
+    },
+    "cta": {
+      "title": "Tabiatni dasturxoningizga olib keling.",
+      "button": "Bog‘lanish"
+    },
+    "highlights": {
+      "title": "Nur & Garden bilan tanishing",
+      "items": [
+        {
+          "title": "Bizning merosimiz",
+          "description": "An’ana va innovatsiya qanday uyg‘unligini yaqindan bilib oling.",
+          "button": "Batafsil o‘qish",
+          "href": "/about"
+        },
+        {
+          "title": "Mahsulot kolleksiyasi",
+          "description": "Hashamatli dasturxon uchun yaratilgan guruch tanlovini kashf eting.",
+          "button": "Mahsulotlar",
+          "href": "/products"
+        },
+        {
+          "title": "Biz bilan bog‘laning",
+          "description": "Birgalikda esda qolarli taomlar yaratish uchun hoziroq yozing.",
+          "button": "Aloqa",
+          "href": "/contact"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "contact": "Kontaktlar",
+    "rights": "© 2025 Nur & Garden. Barcha huquqlar himoyalangan."
+  },
+  "about": {
+    "heroTitle": "Nur & Garden haqida",
+    "heroSubtitle": "Tabiatga hurmat, anʼanaga sodiqlik, meʼyorli hashamat.",
+    "ourStory": {
+      "title": "Bizning hikoyamiz",
+      "body": "Nur & Garden brendi Samarqandning serhosil yerlarida tugʻildi. Har bir don guruch tabiatning sabr-toqatli mevasidir. Biz avlodlar davomida shakllangan tajribani zamonaviy texnologiyalar bilan uygʻunlashtirib, mukammal taʼm va yuqori sifatni taʼminlaymiz."
+    },
+    "ourValues": {
+      "title": "Qadriyatlarimiz",
+      "items": {
+        "quality": {
+          "title": "Sifat",
+          "description": "Biz har bir bosqichni sinchiklab nazorat qilamiz."
+        },
+        "sustainability": {
+          "title": "Barqarorlik",
+          "description": "Yerga eʼtibor va kelajak avlod uchun masʼuliyat."
+        },
+        "tradition": {
+          "title": "Anʼana",
+          "description": "Oilaviy meros va milliy madaniyatdan ilhom."
+        }
+      }
+    }
+  },
+  "products": {
+    "heroTitle": "Mahsulotlarimiz",
+    "heroSubtitle": "Hashamatli dasturxonga mos tanlov.",
+    "filters": {
+      "searchPlaceholder": "Mahsulotni qidirish...",
+      "categoryLabel": "Kategoriyalar",
+      "noResults": "Hech qanday mahsulot topilmadi."
+    },
+    "detailLabels": {
+      "origin": "Kelib chiqishi",
+      "notes": "Taʼm eslatmalari",
+      "pairing": "Mos taomlar"
+    },
+    "categories": {
+      "all": "Barchasi",
+      "premium": "Premium tanlov",
+      "organic": "Organik to‘plam",
+      "signature": "Imzo kolleksiya",
+      "wellness": "Sog‘lom ovqatlanish"
+    },
+    "cards": {
+      "jasmine": {
+        "name": "Premium Jasmine",
+        "description": "Yengil hidli, yumshoq taʼmli guruch."
+      },
+      "basmati": {
+        "name": "Royal Basmati",
+        "description": "Uzun donli, guruch oshlar uchun ideal."
+      },
+      "organic": {
+        "name": "Organic Harmony",
+        "description": "100% organik yetishtirilgan guruch."
+      },
+      "black": {
+        "name": "Velvet Noir",
+        "description": "Antioksidantlarga boy qora guruch."
+      },
+      "brown": {
+        "name": "Golden Brown",
+        "description": "Toʻliq don, foydali tolalarga boy."
+      },
+      "fusion": {
+        "name": "Silk Fusion",
+        "description": "Gʻarb va Sharq taʼmlari uygʻunligi."
+      }
+    },
+    "cta": "Batafsil",
+    "details": {
+      "jasmine": {
+        "longDescription": "Nur & Garden Jasmine guruchi eng nozik hid va ipakdek tuzilma uchun tanlangan. Har bir don yorqin, yorugʻ taʼm beradi va sutli, yengil taomlar uchun juda mos.",
+        "origin": "Janubi-gʻarbiy Samarqand vodiysi",
+        "notes": [
+          "Yumshoq va yengil tuzilma",
+          "Nozik gul hidi",
+          "Qisqa pishirish vaqti"
+        ],
+        "pairing": [
+          "Yengil sabzavotli taomlar",
+          "Dengiz mahsulotlari",
+          "Soya souslari bilan sousli taomlar"
+        ]
+      },
+      "basmati": {
+        "longDescription": "Royal Basmati uzun donli guruchi mazali plov va bayramona dasturxon uchun yaratilgan. Pishirilganda donlar ajralib turadi, hovon palovlari uchun ideal.",
+        "origin": "Zarafshon vodiysi, yuqori togʻ etaklari",
+        "notes": [
+          "Uzun va mustahkam don",
+          "Yongʻoqli taʼm",
+          "Suvni yaxshi singdiradi"
+        ],
+        "pairing": [
+          "Anʼanaviy palov",
+          "Qovurilgan goʻshtlar",
+          "Yogʻli souslarga boy taomlar"
+        ]
+      },
+      "organic": {
+        "longDescription": "Organic Harmony guruchi 100% sertifikatlangan organik usulda yetishtiriladi. Donlar tabiiy taʼmni saqlagan va kundalik isteʼmol uchun foydali.",
+        "origin": "Ekologik nazorat qilinadigan maydonlar",
+        "notes": [
+          "Hech qanday kimyoviy ozuqa qoʻllanmaydi",
+          "Tabiiy, biroz yongʻoqsimon taʼm",
+          "Yuqori oziqlanish qiymati"
+        ],
+        "pairing": [
+          "Parhez taomlari",
+          "Sabzavotli pishiriqlar",
+          "Soddalashtirilgan nonushta variants"
+        ]
+      },
+      "black": {
+        "longDescription": "Velvet Noir qora guruchi noyob pigment va antioksidantlarga boy. Hashamatli rang va toʻq taʼm maxsus tadbirlar uchun ajoyib tanlov.",
+        "origin": "Samarqandning togʻ yonbagʻirlari",
+        "notes": [
+          "Tabiiy antosiyaninlarga boy",
+          "Qalin, biroz shirin taʼm",
+          "Yaltiroq, jozibali rang"
+        ],
+        "pairing": [
+          "Guruchli desertlar",
+          "Qora shokoladli taomlar",
+          "Gurme salatlar"
+        ]
+      },
+      "brown": {
+        "longDescription": "Golden Brown toʻliq donli guruch tolaga boyligi va tabiiy vitaminlari bilan ajralib turadi. Sogʻlom hayot tarzi uchun tavsiya etiladi.",
+        "origin": "Farovon irrigatsiya tizimiga ega maydonlar",
+        "notes": [
+          "Tolaga boy",
+          "Yongʻoqsimon va toʻq taʼm",
+          "Al dente tuzilma"
+        ],
+        "pairing": [
+          "Sogʻlom salatlar",
+          "Koʻkatli taomlar",
+          "Gril qilingan sabzavotlar"
+        ]
+      },
+      "fusion": {
+        "longDescription": "Silk Fusion sharqona nafislik va zamonaviy gastronomiyaning uygʻunligini taqdim etadi. Donlar maxsus aralashma bilan ehtiyotkorlik bilan tanlangan.",
+        "origin": "Nur & Garden imzo aralashmasi",
+        "notes": [
+          "Sharqona va gʻarbona taʼmlar uygʻunligi",
+          "Ipakdek tuzilma",
+          "Yorqin va esda qolarli aromat"
+        ],
+        "pairing": [
+          "Fusion oshxonasi taomlari",
+          "Sabzavotli woklar",
+          "Egzotik souslar"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "heroTitle": "Biz bilan bogʻlaning",
+    "detailsTitle": "Aloqa maʼlumotlari",
+    "phone": "Telefon",
+    "email": "Email",
+    "address": "Manzil",
+    "addressValue": "Samarqand, Oʻzbekiston",
+    "form": {
+      "name": "Ism",
+      "email": "Email",
+      "message": "Xabar",
+      "submit": "Xabarni yuborish",
+      "success": "Xabaringiz muvaffaqiyatli yuborildi."
+    }
+  },
+  "gallery": {
+    "heroTitle": "Nur & Garden galereyasi",
+    "heroSubtitle": "Tabiiylik va estetikani real kadrlarda his eting.",
+    "captions": {
+      "atelier": "Atelyedagi qadoqlash jarayoni",
+      "fields": "Samarqand dalalaridagi tong",
+      "packaging": "Ekologik qadoqlash detali",
+      "table": "Minimalist dasturxon kompozitsiyasi",
+      "grain": "Guruch donlarining yaqin ko‘rinishi",
+      "harvest": "Hosil terish onlari"
+    }
+  },
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "learnMore": "Batafsil",
+    "close": "Yopish",
+    "next": "Keyingi",
+    "previous": "Oldingi"
+  }
+}
+

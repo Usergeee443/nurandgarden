@@ -1,0 +1,8 @@
+<svg width="600" height="800" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="800" rx="48" fill="#EDE5D6"/>
+  <rect x="60" y="80" width="480" height="640" rx="36" fill="#FFFFFF" stroke="#B9AC99" stroke-width="6"/>
+  <path d="M210 340c-20-80 40-150 140-150s200 120 180 220-120 160-220 140-140-120-100-210z" fill="#D7CCB9"/>
+  <path d="M240 420c40-40 110-20 150 30s30 120-20 150-130 10-170-60-10-120 40-120z" fill="#C7B9A5"/>
+  <text x="50%" y="620" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="46" fill="#3C3C3C">Organic</text>
+</svg>
+
