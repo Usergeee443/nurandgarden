@@ -39,3 +39,11 @@ npm start
 - Backend/e-mail integratsiyasi orqali kontakt formasini real xizmatga ulash.
 - Performance optimizatsiyasi (image lazy-loading, bundle splitting).
 
+## Vercel’ga joylash (deployment)
+
+1. Vercel’da yangi projekt yarating va ushbu repoga ulaning.
+2. `framework` sifatida **Create React App** avtomatik aniqlanadi; `build` buyrug‘i `npm run build`, `output` katalogi `build/`.
+3. Peer konfliktlarini hal qilish uchun repo ildizida `.npmrc` faylida `legacy-peer-deps=true` sozlamasi tayyor – qo‘shimcha konfiguratsiya talab qilinmaydi.
+4. Deployment vaqtida Vercel `npm install`, so‘ng `npm run build`, oxirida `build/` ni serve qiladi.
+5. Muqobil: lokalda `npm install --legacy-peer-deps && npm run build` bajarib, `vercel deploy --prebuilt` orqali yopiq buildni yuborishingiz ham mumkin.
+
