@@ -1,0 +1,9 @@
+<svg width="240" height="270" viewBox="0 0 240 270" xmlns="http://www.w3.org/2000/svg">
+  <rect x="20" y="14" width="200" height="238" rx="24" fill="#FFFFFF" stroke="#B7A486" stroke-width="2.4"/>
+  <rect x="44" y="42" width="152" height="52" rx="12" fill="#E6DDCD"/>
+  <rect x="36" y="108" width="168" height="116" rx="14" fill="#FFFFFF" stroke="#C5B59B" stroke-width="1.8"/>
+  <text x="50%" y="86" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="26" fill="#3C3C3C">Lazer</text>
+  <text x="50%" y="146" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="18" fill="#6F6659">Hospitality Series</text>
+  <text x="50%" y="214" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="18" fill="#3C3C3C">5 KG</text>
+</svg>
+

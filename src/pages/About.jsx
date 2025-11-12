@@ -8,6 +8,10 @@ const valuesKeys = ["quality", "sustainability", "tradition"];
 
 function About() {
   const { t } = useTranslation();
+  const missionParagraphs = t("about.mission.paragraphs", { returnObjects: true }) || [];
+  const craftHighlights = t("about.craft.items", { returnObjects: true }) || [];
+  const timeline = t("about.timeline", { returnObjects: true }) || [];
+  const commitments = t("about.commitments.items", { returnObjects: true }) || [];
 
   const pageTitle = `${t("brand.name")} — ${t("navigation.about")}`;
 
@@ -28,9 +32,6 @@ function About() {
           <h1>{t("about.heroTitle")}</h1>
           <p>{t("about.heroSubtitle")}</p>
         </div>
-        <button type="button" className="about-hero__scroll" aria-label={t("home.hero.scrollHint")}>
-          <span />
-        </button>
       </section>
 
       <section className="about-story" data-aos="fade-up">
@@ -43,10 +44,20 @@ function About() {
         </div>
       </section>
 
+      <section className="about-mission" data-aos="fade-up">
+        <h2>{t("about.mission.title")}</h2>
+        <div className="about-mission__grid">
+          {missionParagraphs.map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
+        </div>
+      </section>
+
       <section className="about-values" data-aos="fade-up">
         <div className="about-values__intro">
           <h2>{t("about.ourValues.title")}</h2>
-          <img src={aboutValuesImage} alt={t("about.ourValues.title")} loading="lazy" />
+          <img src={aboutValuesImage} alt={t("about.ourValues.title")}
+            loading="lazy" />
         </div>
         <div className="about-values__grid">
           {valuesKeys.map((key) => (
@@ -57,6 +68,47 @@ function About() {
           ))}
         </div>
       </section>
+
+      <section className="about-craft" data-aos="fade-up">
+        <h2>{t("about.craft.title")}</h2>
+        <div className="about-craft__grid">
+          {craftHighlights.map((item, index) => (
+            <article key={index}>
+              <span className="about-craft__eyebrow">{item.title}</span>
+              <p>{item.description}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      {timeline.length > 0 && (
+        <section className="about-timeline" data-aos="fade-up">
+          <h2>{t("about.timelineTitle")}</h2>
+          <div className="about-timeline__grid">
+            {timeline.map((step) => (
+              <article key={step.year}>
+                <span className="about-timeline__year">{step.year}</span>
+                <h3>{step.title}</h3>
+                <p>{step.description}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {commitments.length > 0 && (
+        <section className="about-commitments" data-aos="fade-up">
+          <h2>{t("about.commitments.title")}</h2>
+          <div className="about-commitments__grid">
+            {commitments.map((item, index) => (
+              <article key={index}>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
     </>
   );
 }

@@ -145,11 +145,76 @@
           "description": "Oilaviy meros va milliy madaniyatdan ilhom."
         }
       }
+    },
+    "mission": {
+      "title": "Missiyamiz",
+      "paragraphs": [
+        "Nur & Garden ning maqsadi — Oʻzbekistonda yetishtirilgan guruchning nafisligini dunyoga ulashishdir. Biz yerga ehtirom bilan yondashadigan dehqonlar bilan uzoq muddatli hamkorlikni rivojlantiramiz.",
+        "Har bir partiya urugʻ tanlashdan tortib sayqal berishgacha boʻlgan oilaviy mahorat mahsulidir. Oddiy donni hashamatli taomga aylantirish uchun jarayonning har bosqichiga eʼtibor qaratamiz.",
+        "Biz uchun hashamat — tabiiylik va halollik bilan uygʻunlikdir. Shu sabab Lazer guruchi kelib chiqishi aniq, tabiatga hurmatli va har bir oshxonada ishonchli tanlov bo‘lib qoladi."
+      ]
+    },
+    "craft": {
+      "title": "Har bir don ortidagi mahorat",
+      "items": [
+        {
+          "title": "Tanlab ekish",
+          "description": "Merosiy urugʻlar kichik maydonlarga ekiladi, suv va oziqlanish jarayoni bosqichma-bosqich kuzatiladi."
+        },
+        {
+          "title": "Sekin yetiltirish",
+          "description": "Donlar quyoshda ehtiyotkorlik bilan quritiladi, tabiiy yogʻlari saqlangan holda tozalab sayqal beriladi."
+        },
+        {
+          "title": "Ustalar sayqali",
+          "description": "Sayqal berish uskunalari qoʻlda sozlanadi, shuning uchun Lazer oʻzining yorqin jilosi va butun shaklini saqlab qoladi."
+        }
+      ]
+    },
+    "timelineTitle": "Nur & Garden rivojlanish bosqichlari",
+    "timeline": [
+      {
+        "year": "1987",
+        "title": "Oilaviy boshlanish",
+        "description": "Fargʻonadagi asoschilar guruchni anʼanaviy quritish va sayqal berish uslublari bilan tiklashdi."
+      },
+      {
+        "year": "2002",
+        "title": "Barqarorlik majburiyati",
+        "description": "Hamkor xoʻjaliklarimizda suvni tejaydigan sugʻorish va kimyoviy moddasiz parvarish tizimi joriy etildi."
+      },
+      {
+        "year": "2015",
+        "title": "Sayqal ustaxonasi",
+        "description": "Maxsus sayqal berish atelyesi ishga tushdi va cheklangan partiyalar yuqori aniqlikda tayyorlana boshlandi."
+      },
+      {
+        "year": "2024",
+        "title": "Global taqdimot",
+        "description": "Lazer guruchi xalqaro bozorga taqdim etildi, ammo boutique hajm va haqiqiy hikoyani saqlab qoldi."
+      }
+    ],
+    "commitments": {
+      "title": "Bizning kafolatlarimiz",
+      "items": [
+        {
+          "title": "Izlanadigan manba",
+          "description": "Har bir partiya ko‘chatzor va hosil sanasiga qadar belgilab boriladi — hamkorlarimiz mahsulot qayerdan kelganini aniq biladi."
+        },
+        {
+          "title": "Masʼuliyatli taʼminot",
+          "description": "Dehqonlarni o‘qitish, sug‘orish texnologiyalari va adolatli narxlar orqali qishloq hamjamiyatlarini qo‘llab-quvvatlaymiz."
+        },
+        {
+          "title": "Barqaror sifat",
+          "description": "Qadoqlashdan avval bir nechta taʼm va tekstura sinovlari o‘tkaziladi — Lazer har qanday oshxonada bir xil natija beradi."
+        }
+      ]
     }
   },
   "products": {
     "heroTitle": "Mahsulotlarimiz",
-    "heroSubtitle": "Hashamatli dasturxonga mos tanlov.",
+    "heroSubtitle": "Lazer guruchi — hashamatli taomlar uchun tayyorlangan jarangdor nav.",
     "filters": {
       "searchPlaceholder": "Mahsulotni qidirish...",
       "categoryLabel": "Kategoriyalar",
@@ -158,125 +223,51 @@
     "detailLabels": {
       "origin": "Kelib chiqishi",
       "notes": "Taʼm eslatmalari",
-      "pairing": "Mos taomlar"
+      "pairing": "Mos taomlar",
+      "sizes": "Qadoqlash variantlari"
     },
     "categories": {
       "all": "Barchasi",
-      "premium": "Premium tanlov",
-      "organic": "Organik to‘plam",
-      "signature": "Imzo kolleksiya",
-      "wellness": "Sog‘lom ovqatlanish"
+      "rice": "Guruchlar"
     },
     "cards": {
-      "jasmine": {
-        "name": "Premium Jasmine",
-        "description": "Yengil hidli, yumshoq taʼmli guruch."
-      },
-      "basmati": {
-        "name": "Royal Basmati",
-        "description": "Uzun donli, guruch oshlar uchun ideal."
-      },
-      "organic": {
-        "name": "Organic Harmony",
-        "description": "100% organik yetishtirilgan guruch."
-      },
-      "black": {
-        "name": "Velvet Noir",
-        "description": "Antioksidantlarga boy qora guruch."
-      },
-      "brown": {
-        "name": "Golden Brown",
-        "description": "Toʻliq don, foydali tolalarga boy."
-      },
-      "fusion": {
-        "name": "Silk Fusion",
-        "description": "Gʻarb va Sharq taʼmlari uygʻunligi."
+      "lazer": {
+        "name": "Lazer guruchi",
+        "description": "Yorqin jiloga ega, taʼmi barqaror va nafis guruch navimiz."
       }
     },
     "cta": "Batafsil",
     "details": {
-      "jasmine": {
-        "longDescription": "Nur & Garden Jasmine guruchi eng nozik hid va ipakdek tuzilma uchun tanlangan. Har bir don yorqin, yorugʻ taʼm beradi va sutli, yengil taomlar uchun juda mos.",
-        "origin": "Janubi-gʻarbiy Samarqand vodiysi",
+      "lazer": {
+        "story": "Lazer guruchi urugʻdan boshlab to taom dasturxonga kelguniga qadar Oʻzbekiston mehmondoʻstligini aks ettiradi. Fargʻona vodiysidagi oilalar daraxtzorlar oraligʻida maydonlarni asrab-avaylaydi, hosilni ehtiyotkorlik bilan yigʻib, toshlardan tozalaydi va toza buloq suvida chayishadi.",
+        "longDescription": "Maxsus sayqal berish jarayonida har bir don o‘zining tabiiy yogʻini saqlab qoladi, shu bois pishirilganda ham yaltirab, taʼmi yoʻqolmaydi. Lazer guruchi don-don bo‘lib turadi, ziravorlarni bir tekis singdiradi va hashamatli dasturxonlar hamda uy bayramlarining asosiy yulduziga aylanadi.",
+        "origin": "Fargʻona vodiysi, O‘zbekiston",
         "notes": [
-          "Yumshoq va yengil tuzilma",
-          "Nozik gul hidi",
-          "Qisqa pishirish vaqti"
+          "Yorqin, oppoq jiloli don",
+          "Yengil yongʻoqsimon taʼm va muvozanatli tekstura",
+          "Palov va bugʻda pishiriladigan taomlar uchun ideal"
         ],
         "pairing": [
-          "Yengil sabzavotli taomlar",
-          "Dengiz mahsulotlari",
-          "Soya souslari bilan sousli taomlar"
-        ]
-      },
-      "basmati": {
-        "longDescription": "Royal Basmati uzun donli guruchi mazali plov va bayramona dasturxon uchun yaratilgan. Pishirilganda donlar ajralib turadi, hovon palovlari uchun ideal.",
-        "origin": "Zarafshon vodiysi, yuqori togʻ etaklari",
-        "notes": [
-          "Uzun va mustahkam don",
-          "Yongʻoqli taʼm",
-          "Suvni yaxshi singdiradi"
+          "Anʼanaviy oʻzbek palovi",
+          "Yengil bugʻda pishiriladigan taomlar",
+          "Sabzavotli va goʻshtli likoplar"
         ],
-        "pairing": [
-          "Anʼanaviy palov",
-          "Qovurilgan goʻshtlar",
-          "Yogʻli souslarga boy taomlar"
-        ]
-      },
-      "organic": {
-        "longDescription": "Organic Harmony guruchi 100% sertifikatlangan organik usulda yetishtiriladi. Donlar tabiiy taʼmni saqlagan va kundalik isteʼmol uchun foydali.",
-        "origin": "Ekologik nazorat qilinadigan maydonlar",
-        "notes": [
-          "Hech qanday kimyoviy ozuqa qoʻllanmaydi",
-          "Tabiiy, biroz yongʻoqsimon taʼm",
-          "Yuqori oziqlanish qiymati"
-        ],
-        "pairing": [
-          "Parhez taomlari",
-          "Sabzavotli pishiriqlar",
-          "Soddalashtirilgan nonushta variants"
-        ]
-      },
-      "black": {
-        "longDescription": "Velvet Noir qora guruchi noyob pigment va antioksidantlarga boy. Hashamatli rang va toʻq taʼm maxsus tadbirlar uchun ajoyib tanlov.",
-        "origin": "Samarqandning togʻ yonbagʻirlari",
-        "notes": [
-          "Tabiiy antosiyaninlarga boy",
-          "Qalin, biroz shirin taʼm",
-          "Yaltiroq, jozibali rang"
-        ],
-        "pairing": [
-          "Guruchli desertlar",
-          "Qora shokoladli taomlar",
-          "Gurme salatlar"
-        ]
-      },
-      "brown": {
-        "longDescription": "Golden Brown toʻliq donli guruch tolaga boyligi va tabiiy vitaminlari bilan ajralib turadi. Sogʻlom hayot tarzi uchun tavsiya etiladi.",
-        "origin": "Farovon irrigatsiya tizimiga ega maydonlar",
-        "notes": [
-          "Tolaga boy",
-          "Yongʻoqsimon va toʻq taʼm",
-          "Al dente tuzilma"
-        ],
-        "pairing": [
-          "Sogʻlom salatlar",
-          "Koʻkatli taomlar",
-          "Gril qilingan sabzavotlar"
-        ]
-      },
-      "fusion": {
-        "longDescription": "Silk Fusion sharqona nafislik va zamonaviy gastronomiyaning uygʻunligini taqdim etadi. Donlar maxsus aralashma bilan ehtiyotkorlik bilan tanlangan.",
-        "origin": "Nur & Garden imzo aralashmasi",
-        "notes": [
-          "Sharqona va gʻarbona taʼmlar uygʻunligi",
-          "Ipakdek tuzilma",
-          "Yorqin va esda qolarli aromat"
-        ],
-        "pairing": [
-          "Fusion oshxonasi taomlari",
-          "Sabzavotli woklar",
-          "Egzotik souslar"
+        "sizes": [
+          {
+            "title": "1 kg qadoq",
+            "description": "Kichik doʻkonlar va uyda sinab koʻrish uchun qulay.",
+            "image": "/assets/products/lazer-1kg.svg"
+          },
+          {
+            "title": "3 kg oilaviy qadoq",
+            "description": "Restoranlar va haftalik menyu uchun balansli hajm.",
+            "image": "/assets/products/lazer-3kg.svg"
+          },
+          {
+            "title": "5 kg HoReCa qadoq",
+            "description": "Professional oshxonalar uchun yuqori hajmli variant.",
+            "image": "/assets/products/lazer-5kg.svg"
+          }
         ]
       }
     }

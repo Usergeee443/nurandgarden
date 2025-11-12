@@ -145,11 +145,76 @@
           "description": "Inspired by family heritage and culture."
         }
       }
+    },
+    "mission": {
+      "title": "Our mission",
+      "paragraphs": [
+        "Nur & Garden exists to share the elegance of Uzbek rice with the world. We cultivate longstanding relationships with farmers who treat the soil as a living legacy, not a resource to be exhausted.",
+        "Every batch that leaves our mill is a reflection of family craft. From seed selection to the final polish, we elevate humble grain into a refined culinary experience.",
+        "We believe that luxury should feel grounded. That is why Lazer rice is transparent in origin, respectful of nature and consistent in every kitchen."
+      ]
+    },
+    "craft": {
+      "title": "Craft behind every grain",
+      "items": [
+        {
+          "title": "Selective farming",
+          "description": "Heritage seeds are planted in small lots so we can monitor water, nutrients and growth at every stage."
+        },
+        {
+          "title": "Slow maturation",
+          "description": "Grains are sun-cured and husked in batches, preserving the natural oils that carry aroma and flavour."
+        },
+        {
+          "title": "Polished by artisans",
+          "description": "Our millers work with hand-adjusted equipment, achieving the signature Lazer sheen without damaging the grain."
+        }
+      ]
+    },
+    "timelineTitle": "Milestones of Nur & Garden",
+    "timeline": [
+      {
+        "year": "1987",
+        "title": "Family beginnings",
+        "description": "Our founders in Fergana reintroduced traditional drying and polishing methods to keep rice aromatic."
+      },
+      {
+        "year": "2002",
+        "title": "Sustainable pledge",
+        "description": "We converted our partner farms to water-efficient irrigation and chemical-free soil care."
+      },
+      {
+        "year": "2015",
+        "title": "Craft mill expansion",
+        "description": "A dedicated polishing atelier opened, enabling limited batches with precision finishing."
+      },
+      {
+        "year": "2024",
+        "title": "Global launch",
+        "description": "Lazer rice debuted internationally, keeping its boutique production scale and authentic story."
+      }
+    ],
+    "commitments": {
+      "title": "Our assurances",
+      "items": [
+        {
+          "title": "Traceable origin",
+          "description": "Every lot is tagged to its micro-farm and harvest date, so partners know exactly where their rice begins."
+        },
+        {
+          "title": "Responsible supply",
+          "description": "We invest in farmer training, irrigation technology and fair pricing to keep rural communities thriving."
+        },
+        {
+          "title": "Consistent quality",
+          "description": "Multiple taste and texture tests are performed before packaging, ensuring Lazer cooks the same in every kitchen."
+        }
+      ]
     }
   },
   "products": {
     "heroTitle": "Our products",
-    "heroSubtitle": "Curated for a refined table.",
+    "heroSubtitle": "Lazer rice, polished for refined dining and professional kitchens.",
     "filters": {
       "searchPlaceholder": "Search products...",
       "categoryLabel": "Categories",
@@ -158,125 +223,51 @@
     "detailLabels": {
       "origin": "Origin",
       "notes": "Tasting notes",
-      "pairing": "Pairing suggestions"
+      "pairing": "Pairing suggestions",
+      "sizes": "Available packages"
     },
     "categories": {
       "all": "All",
-      "premium": "Premium Selection",
-      "organic": "Organic Collection",
-      "signature": "Signature Line",
-      "wellness": "Wellness Essentials"
+      "rice": "Rice Collection"
     },
     "cards": {
-      "jasmine": {
-        "name": "Premium Jasmine",
-        "description": "Delicate aroma with a soft finish."
-      },
-      "basmati": {
-        "name": "Royal Basmati",
-        "description": "Long-grain rice ideal for pilaf."
-      },
-      "organic": {
-        "name": "Organic Harmony",
-        "description": "100% organically cultivated rice."
-      },
-      "black": {
-        "name": "Velvet Noir",
-        "description": "Black rice rich in antioxidants."
-      },
-      "brown": {
-        "name": "Golden Brown",
-        "description": "Whole grain with abundant fiber."
-      },
-      "fusion": {
-        "name": "Silk Fusion",
-        "description": "East and West flavors in harmony."
+      "lazer": {
+        "name": "Lazer Rice",
+        "description": "Premium Uzbek rice with crystal shine and balanced texture."
       }
     },
     "cta": "Learn more",
     "details": {
-      "jasmine": {
-        "longDescription": "Nur & Garden Jasmine is selected for its floral bouquet and silken texture. Each grain carries a luminous, gentle finish that elevates light, aromatic dishes.",
-        "origin": "Southwestern Samarkand valley",
+      "lazer": {
+        "story": "From the seed to the steamed platter, Lazer rice embodies the hospitality of Uzbekistan. Families in the Fergana Valley nurture the fields throughout the seasons, letting the grains develop slowly under generous sun. After harvest, the rice is husked in small batches, washed in pure mountain water and gently polished until each grain gleams.",
+        "longDescription": "Because we preserve the natural oils and structure of the grain, Lazer rice remains fragrant, tender and resilient during cooking. It keeps a perfect shape, absorbs spices evenly and brings a subtle glossy finish to every plate — whether it’s a restaurant signature dish or a home celebration.",
+        "origin": "Fergana Valley, Uzbekistan",
         "notes": [
-          "Feather-light, tender texture",
-          "Graceful floral fragrance",
-          "Quick, even cooking"
+          "Bright white polished grain",
+          "Balanced, lightly nutty flavor",
+          "Consistent texture for pilaf and steamed dishes"
         ],
         "pairing": [
-          "Delicate vegetable courses",
-          "Seafood pairings",
-          "Soy-based sauces"
-        ]
-      },
-      "basmati": {
-        "longDescription": "Royal Basmati is crafted for celebratory tables and impeccable pilaf. Long grains remain separated when cooked, preserving structure and aroma.",
-        "origin": "Foothills of Zarafshan",
-        "notes": [
-          "Elongated, resilient grains",
-          "Toasted nut undertones",
-          "Absorbs spices and butter beautifully"
+          "Traditional Uzbek plov",
+          "Delicate steamed rice bowls",
+          "Vegetable stews and meat sautés"
         ],
-        "pairing": [
-          "Traditional pilaf",
-          "Roasted meats",
-          "Rich sauces"
-        ]
-      },
-      "organic": {
-        "longDescription": "Organic Harmony is grown with certified organic practices. A balanced profile and authentic taste make it a wholesome daily staple.",
-        "origin": "Carefully monitored eco fields",
-        "notes": [
-          "Cultivated without chemical inputs",
-          "Natural, gently nutty flavor",
-          "High nutritional value"
-        ],
-        "pairing": [
-          "Clean-eating menus",
-          "Vegetable gratins",
-          "Bright breakfast bowls"
-        ]
-      },
-      "black": {
-        "longDescription": "Velvet Noir black rice is naturally rich in antioxidants. Its dramatic color and layered taste bring a touch of couture to the table.",
-        "origin": "Samarkand mountain slopes",
-        "notes": [
-          "Naturally high in anthocyanins",
-          "Deep, subtly sweet profile",
-          "High-gloss, captivating hue"
-        ],
-        "pairing": [
-          "Rice-based desserts",
-          "Dark chocolate creations",
-          "Gourmet salads"
-        ]
-      },
-      "brown": {
-        "longDescription": "Golden Brown wholegrain rice delivers fiber and essential vitamins. An essential companion for mindful wellness routines.",
-        "origin": "Irrigated terraces with mineral-rich soil",
-        "notes": [
-          "Abundant natural fiber",
-          "Nut-forward savoriness",
-          "Pleasant al dente bite"
-        ],
-        "pairing": [
-          "Wholesome salads",
-          "Herb-forward dishes",
-          "Charred seasonal vegetables"
-        ]
-      },
-      "fusion": {
-        "longDescription": "Silk Fusion harmonizes oriental elegance with modern gastronomy. Its bespoke blend is curated in limited micro-batches.",
-        "origin": "Nur & Garden signature blend",
-        "notes": [
-          "Balanced East-meets-West flavor",
-          "Supple, satin-like mouthfeel",
-          "Vivid, memorable aromatics"
-        ],
-        "pairing": [
-          "Contemporary fusion cuisine",
-          "Vegetable wok sautés",
-          "Exotic dressings and glazes"
+        "sizes": [
+          {
+            "title": "1 kg pouch",
+            "description": "Hand-finished grains for boutique retail shelves and curated home tastings.",
+            "image": "/assets/products/lazer-1kg.svg"
+          },
+          {
+            "title": "3 kg family pack",
+            "description": "Balanced volume for restaurants, cafés and weekly premium menus.",
+            "image": "/assets/products/lazer-3kg.svg"
+          },
+          {
+            "title": "5 kg HoReCa pack",
+            "description": "High-volume packaging optimised for large-scale kitchens and export needs.",
+            "image": "/assets/products/lazer-5kg.svg"
+          }
         ]
       }
     }
