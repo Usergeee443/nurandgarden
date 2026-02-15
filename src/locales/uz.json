@@ -228,12 +228,35 @@
     },
     "categories": {
       "all": "Barchasi",
-      "rice": "Guruchlar"
+      "rice": "Guruchlar",
+      "nuts": "Yong'oqlar",
+      "driedFruits": "Quruq mevalar",
+      "teas": "Choylar"
     },
     "cards": {
       "lazer": {
         "name": "Lazer guruchi",
         "description": "Yorqin jiloga ega, taʼmi barqaror va nafis guruch navimiz."
+      },
+      "almondPremium": {
+        "name": "Premium Bodom",
+        "description": "Tabiiy, qo'lda tanlangan, yuqori sifatli bodom yadrolari."
+      },
+      "walnutSelect": {
+        "name": "Tanlangan Yongoq",
+        "description": "To'liq pishgan, xushbo'y va foydali yongoq yadrolari."
+      },
+      "pistachioRoyal": {
+        "name": "Royal Pista",
+        "description": "Yashil rangli, tuzilgan va mazali pista yadrolari."
+      },
+      "driedFruitsMix": {
+        "name": "Quruq mevalar aralashmasi",
+        "description": "Tabiiy quritilgan, vitaminlarga boy mevalar aralashmasi."
+      },
+      "greenTeaPremium": {
+        "name": "Premium Yashil choy",
+        "description": "Yuqori sifatli, tabiiy yashil choy barglari."
       }
     },
     "cta": "Batafsil",

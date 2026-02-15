@@ -228,12 +228,35 @@
     },
     "categories": {
       "all": "All",
-      "rice": "Rice Collection"
+      "rice": "Rice Collection",
+      "nuts": "Nuts",
+      "driedFruits": "Dried Fruits",
+      "teas": "Teas"
     },
     "cards": {
       "lazer": {
         "name": "Lazer Rice",
         "description": "Premium Uzbek rice with crystal shine and balanced texture."
+      },
+      "almondPremium": {
+        "name": "Premium Almonds",
+        "description": "Natural, hand-selected, high-quality almond kernels."
+      },
+      "walnutSelect": {
+        "name": "Select Walnuts",
+        "description": "Fully ripened, aromatic and nutritious walnut kernels."
+      },
+      "pistachioRoyal": {
+        "name": "Royal Pistachios",
+        "description": "Green, structured and flavorful pistachio kernels."
+      },
+      "driedFruitsMix": {
+        "name": "Dried Fruits Mix",
+        "description": "Naturally dried, vitamin-rich fruit mix."
+      },
+      "greenTeaPremium": {
+        "name": "Premium Green Tea",
+        "description": "High-quality, natural green tea leaves."
       }
     },
     "cta": "Learn more",

@@ -13,21 +13,22 @@ function TestimonialsSection() {
   const testimonials = t("home.testimonials.items", { returnObjects: true }) || [];
 
   return (
-    <section className="home-testimonials">
+    <section className="home-testimonials" data-aos="fade-up">
       <div className="home-testimonials__inner">
-        <h2 data-aos="fade-up">{title}</h2>
+        <h2>{title}</h2>
         <Swiper
           modules={[Pagination, Autoplay]}
-          spaceBetween={24}
+          spaceBetween={20}
           slidesPerView={1}
           pagination={{ clickable: true }}
-          autoplay={{ delay: 4500, disableOnInteraction: false }}
+          autoplay={{ delay: 5000, disableOnInteraction: false }}
+          loop
           className="home-testimonials__swiper"
         >
           {testimonials.map((item, index) => (
             <SwiperSlide key={`${item.name}-${index}`}>
-              <article className="home-testimonials__card" data-aos="fade-up">
-                <header>
+              <article className="home-testimonials__card">
+                <div className="home-testimonials__header">
                   <span className="home-testimonials__name">{item.name}</span>
                   <div className="home-testimonials__stars" aria-label="5 out of 5 stars">
                     {STARS.map((star) => (
@@ -36,8 +37,8 @@ function TestimonialsSection() {
                       </span>
                     ))}
                   </div>
-                </header>
-                <p>{item.quote}</p>
+                </div>
+                <p className="home-testimonials__quote">{item.quote}</p>
               </article>
             </SwiperSlide>
           ))}
@@ -48,4 +49,3 @@ function TestimonialsSection() {
 }
 
 export default TestimonialsSection;
-

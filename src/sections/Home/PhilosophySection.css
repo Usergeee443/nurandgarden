@@ -1,5 +1,5 @@
 .home-philosophy {
-  padding: 6rem 0 4rem;
+  padding: 7rem 0 5rem;
   background-color: #ffffff;
 }
 
@@ -26,42 +26,57 @@
 .home-philosophy__card {
   background-color: #ffffff;
   border: 1px solid rgba(60, 60, 60, 0.12);
-  padding: 2.25rem 2rem;
+  padding: 3rem 2.5rem;
   display: grid;
-  gap: 1.5rem;
+  gap: 1.75rem;
   justify-items: center;
-  transition: transform var(--transition-base), box-shadow var(--transition-base);
+  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
 }
 
 .home-philosophy__card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 28px 60px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 32px 70px rgba(0, 0, 0, 0.1);
+  border-color: rgba(60, 60, 60, 0.2);
 }
 
 .home-philosophy__icon {
-  width: 56px;
-  height: 56px;
+  width: 72px;
+  height: 72px;
   border: 1px solid rgba(60, 60, 60, 0.18);
   display: inline-grid;
   place-items: center;
+  transition: border-color 0.4s ease, background-color 0.4s ease, transform 0.4s ease;
+  border-radius: 0;
+}
+
+.home-philosophy__card:hover .home-philosophy__icon {
+  border-color: rgba(60, 60, 60, 0.35);
+  background-color: rgba(245, 239, 230, 0.4);
+  transform: scale(1.1);
 }
 
 .home-philosophy__icon img {
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
+  transition: transform 0.4s ease;
+}
+
+.home-philosophy__card:hover .home-philosophy__icon img {
+  transform: scale(1.1);
 }
 
 .home-philosophy__card h3 {
-  font-size: 1.35rem;
-  letter-spacing: 0.18em;
+  font-size: 1.4rem;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
+  margin-top: 0.5rem;
 }
 
 .home-philosophy__card p {
-  font-size: 1.05rem;
-  line-height: 1.8;
+  font-size: 1.1rem;
+  line-height: 1.85;
   color: var(--color-text-muted);
-  max-width: 24ch;
+  max-width: 28ch;
 }
 
 @media (max-width: 960px) {

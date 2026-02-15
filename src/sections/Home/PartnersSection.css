@@ -17,11 +17,9 @@
   text-transform: uppercase;
 }
 
-.home-partners__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 1.75rem;
-  align-items: center;
+.home-partners__swiper {
+  width: 100%;
+  padding: 2rem 0;
 }
 
 .home-partners__item {
@@ -32,6 +30,7 @@
   place-items: center;
   transition: filter var(--transition-base), transform var(--transition-base), background-color var(--transition-base);
   filter: grayscale(100%);
+  height: 140px;
 }
 
 .home-partners__item:hover,
@@ -44,5 +43,7 @@
 .home-partners__item img {
   width: 100%;
   height: auto;
+  max-height: 100px;
+  object-fit: contain;
 }
 
