@@ -12,8 +12,8 @@
 
 .home-highlights__inner h2 {
   font-size: clamp(2.5rem, 5vw, 3.5rem);
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  text-transform: none;
   text-align: center;
 }
 
@@ -25,7 +25,7 @@
 
 .home-highlights__card {
   background-color: #ffffff;
-  border: 1px solid rgba(60, 60, 60, 0.12);
+  border: 1px solid var(--color-border);
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -33,6 +33,7 @@
   transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease, background-color 0.4s ease;
   position: relative;
   overflow: hidden;
+  border-radius: var(--radius-lg);
 }
 
 .home-highlights__card::before {
@@ -42,7 +43,7 @@
   left: 0;
   right: 0;
   height: 3px;
-  background-color: var(--color-highlight);
+  background-color: var(--color-primary);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.4s ease;
@@ -50,8 +51,8 @@
 
 .home-highlights__card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 32px 80px rgba(0, 0, 0, 0.12);
-  border-color: rgba(60, 60, 60, 0.25);
+  box-shadow: 0 32px 80px var(--color-shadow);
+  border-color: rgba(25, 168, 91, 0.25);
   background-color: #fefefe;
 }
 
@@ -66,8 +67,8 @@
 
 .home-highlights__body h3 {
   font-size: 1.4rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  text-transform: none;
   margin-bottom: 0.5rem;
 }
 
@@ -82,11 +83,11 @@
   width: fit-content;
   margin-left: auto;
   font-size: 0.95rem;
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  text-transform: none;
   color: var(--color-text-primary);
-  border-bottom: 2px solid rgba(60, 60, 60, 0.3);
-  padding-bottom: 0.4rem;
+  border-bottom: 2px solid rgba(25, 168, 91, 0.35);
+  padding-bottom: 0.25rem;
   transition: color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
   font-weight: 500;
 }
@@ -94,7 +95,7 @@
 .home-highlights__link:hover,
 .home-highlights__link:focus-visible {
   color: var(--color-text-primary);
-  border-color: var(--color-text-primary);
+  border-color: rgba(25, 168, 91, 0.75);
   transform: translateX(-4px);
 }
 

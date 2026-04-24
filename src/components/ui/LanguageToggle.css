@@ -6,35 +6,27 @@
 
 .language-toggle__btn {
   font-size: 0.9375rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  padding-bottom: 0.25rem;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  padding: 0.35rem 0.6rem;
   position: relative;
   color: var(--color-text-muted);
+  border-radius: 999px;
 }
 
 .language-toggle__btn::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 1px;
-  background-color: var(--color-text-primary);
-  transition: width var(--transition-base);
+  content: none;
 }
 
 .language-toggle__btn:hover,
 .language-toggle__btn:focus-visible {
   color: var(--color-text-primary);
+  background-color: var(--color-highlight);
 }
 
 .language-toggle__btn--active {
   color: var(--color-text-primary);
   font-weight: 600;
-}
-
-.language-toggle__btn--active::after {
-  width: 100%;
+  background-color: var(--color-highlight);
 }
 

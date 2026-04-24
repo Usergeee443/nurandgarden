@@ -8,12 +8,13 @@
 
 .product-detail__media {
   width: 100%;
-  background-color: #f5efe6;
-  border: 1px solid rgba(60, 60, 60, 0.18);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1.5rem;
+  border-radius: var(--radius-lg);
 }
 
 .product-detail__media img {
@@ -29,8 +30,8 @@
 
 .product-detail__back {
   font-size: 0.85rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  text-transform: none;
   color: var(--color-text-muted);
   transition: color var(--transition-base);
   width: fit-content;
@@ -43,15 +44,15 @@
 
 .product-detail__category {
   font-size: 0.85rem;
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  text-transform: none;
   color: var(--color-text-muted);
 }
 
 .product-detail h1 {
   font-size: clamp(2.5rem, 6vw, 3.75rem);
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  text-transform: none;
 }
 
 .product-detail__description {
@@ -72,8 +73,8 @@
 
 .product-detail__meta-label {
   font-size: 0.85rem;
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  text-transform: none;
   color: var(--color-text-muted);
   display: block;
   margin-bottom: 0.75rem;
@@ -103,8 +104,8 @@
 
 .product-detail__sizes h2 {
   font-size: clamp(1.8rem, 3vw, 2.4rem);
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  text-transform: none;
 }
 
 .product-detail__sizes-grid {
@@ -114,20 +115,22 @@
 }
 
 .product-detail__size-card {
-  border: 1px solid rgba(60, 60, 60, 0.18);
+  border: 1px solid var(--color-border);
   padding: 1.75rem;
   background-color: #ffffff;
   display: grid;
   gap: 1rem;
+  border-radius: var(--radius-lg);
 }
 
 .product-detail__size-image {
   width: 100%;
-  border: 1px solid rgba(60, 60, 60, 0.1);
+  border: 1px solid var(--color-border);
   background-color: var(--color-surface);
   padding: 1rem;
   display: grid;
   place-items: center;
+  border-radius: var(--radius-md);
 }
 
 .product-detail__size-image img {
@@ -143,8 +146,8 @@
 
 .product-detail__size-body h3 {
   font-size: 1.05rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  text-transform: none;
 }
 
 .product-detail__size-body p {
@@ -163,7 +166,7 @@
   .product-detail__media {
     padding: 2rem;
     background-color: #ffffff;
-    border: 1px solid rgba(60, 60, 60, 0.12);
+    border: 1px solid var(--color-border);
   }
 }
 

@@ -2,13 +2,15 @@ import { createContext, useContext, useMemo } from "react";
 import PropTypes from "prop-types";
 
 const ThemeContext = createContext({
-  fontFamily: "'Cormorant Garamond', serif",
+  fontFamily:
+    "'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif",
 });
 
 export function ThemeProvider({ children }) {
   const value = useMemo(
     () => ({
-      fontFamily: "'Cormorant Garamond', serif",
+      fontFamily:
+        "'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif",
     }),
     []
   );
