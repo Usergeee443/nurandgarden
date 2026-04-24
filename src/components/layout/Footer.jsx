@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 import logo from "../../assets/mainLogo.png";
 
@@ -19,7 +20,7 @@ const socials = [
     name: "Telegram",
     icon: (
       <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M21.5 3.5a1.25 1.25 0 0 0-1.285-.09l-17 9a1.25 1.25 0 0 0 .142 2.3l3.87 1.39 2.02 4.8a1.25 1.25 0 0 0 2.214.18l2.33-3.51 4.26 3.09a1.25 1.25 0 0 0 1.954-.77l2.5-15a1.25 1.25 0 0 0-.998-1.47ZM6.64 12.78 18.26 7.1l-8.61 7.3a1.25 1.25 0 0 0-.41.83l-.18 1.98-1.05-2.5a1.25 1.25 0 0 0-.74-.7l-.63-.22Zm7.26 4.12-.98 1.48.24-2.67 7.44-6.31-6.7 7.5z" />
+        <path d="M21.5 3.5a1.25 1.25 0 0 0-1.285-.09l-17 9a1.25 1.25 0 0 0 .142 2.3l3.87 1.39 2.02 4.8a1.25 1.25 0 0 0 2.214.18l2.33-3.51 4.26 3.09a1.25 1.25 0 0 0 1.954-.77l2.5-15a1.25 1.25 0 0 0-.998-1.47Z" />
       </svg>
     ),
   },
@@ -38,37 +39,86 @@ const socials = [
 function Footer() {
   const { t } = useTranslation();
 
+  const navLinks = [
+    { to: "/", label: t("navigation.home") },
+    { to: "/products", label: t("navigation.products") },
+    { to: "/about", label: t("navigation.about") },
+    { to: "/gallery", label: t("navigation.gallery") },
+    { to: "/contact", label: t("navigation.contact") },
+  ];
+
+  const categoryLabels = t("products.categories", { returnObjects: true });
+  const categoryKeys = ["rice", "nuts", "driedFruits", "teas"];
+
   return (
     <footer className="site-footer">
       <div className="site-footer__inner">
         <div className="site-footer__brand">
           <img src={logo} alt="Nur & Garden logotipi" />
+          <p>{t("footer.tagline")}</p>
+          <div className="site-footer__socials">
+            {socials.map((item) => (
+              <a
+                key={item.name}
+                href={item.href}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={item.title}
+                className="site-footer__social"
+              >
+                {item.icon}
+              </a>
+            ))}
+          </div>
         </div>
-        <div className="site-footer__contact">
-          <h2>{t("footer.contact")}</h2>
-          <p>
-            {t("contact.phone")}: <a href="tel:+998917079732">+998 91 707 97 32</a>
-          </p>
-          <p>
-            {t("contact.email")}: <a href="mailto:info@nurandgarden.com">info@nurandgarden.com</a>
-          </p>
-          <p>
-            {t("contact.address")}: {t("contact.addressValue")}
-          </p>
+
+        <div className="site-footer__col">
+          <h3>{t("footer.nav")}</h3>
+          <ul>
+            {navLinks.map((item) => (
+              <li key={item.to}>
+                <Link to={item.to}>{item.label}</Link>
+              </li>
+            ))}
+          </ul>
         </div>
-        <div className="site-footer__socials">
-          {socials.map((item) => (
-            <a key={item.name} href={item.href} target="_blank" rel="noreferrer" aria-label={item.title}>
-              <span className="site-footer__social-icon">{item.icon}</span>
-              <span>{item.name}</span>
-            </a>
-          ))}
+
+        <div className="site-footer__col">
+          <h3>{t("footer.catalog")}</h3>
+          <ul>
+            {categoryKeys.map((key) => (
+              <li key={key}>
+                <Link to={`/products?category=${key}`}>{categoryLabels[key]}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="site-footer__col">
+          <h3>{t("footer.contact")}</h3>
+          <ul className="site-footer__contact">
+            <li>
+              <span>{t("contact.phone")}</span>
+              <a href="tel:+998917079732">+998 91 707 97 32</a>
+            </li>
+            <li>
+              <span>{t("contact.email")}</span>
+              <a href="mailto:info@nurandgarden.com">info@nurandgarden.com</a>
+            </li>
+            <li>
+              <span>{t("contact.address")}</span>
+              <p>{t("contact.addressValue")}</p>
+            </li>
+          </ul>
         </div>
       </div>
-      <div className="site-footer__bottom">{t("footer.rights")}</div>
+
+      <div className="site-footer__bottom">
+        <span>{t("footer.rights")}</span>
+        <span>🌿 Made with care in Uzbekistan</span>
+      </div>
     </footer>
   );
 }
 
 export default Footer;
-

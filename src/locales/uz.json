@@ -1,7 +1,7 @@
 {
   "brand": {
     "name": "Nur & Garden",
-    "tagline": "Hashamat va tabiat uygʻunligi"
+    "tagline": "Tabiatdan dasturxoningizga"
   },
   "navigation": {
     "home": "Bosh sahifa",
@@ -10,148 +10,274 @@
     "contact": "Aloqa",
     "gallery": "Galereya"
   },
+  "header": {
+    "orderCta": "Buyurtma berish"
+  },
   "home": {
     "hero": {
-      "scrollHint": "Pastga siljiting",
+      "eyebrow": "Nur & Garden kolleksiyasi",
+      "primaryCta": "Mahsulotlarni ko‘rish",
+      "secondaryCta": "Biz haqimizda",
       "slides": {
-        "luxuryGarden": {
-          "title": "Har bir donada hashamat",
-          "caption": "Premial guruch kolleksiyamiz bilan tanishing."
+        "rice": {
+          "title": "Tabiiy guruch, har bir donada lazzat",
+          "caption": "Toza, yirik va to‘yimli guruchlar — palov va kundalik taomlar uchun."
         },
-        "fromNature": {
-          "title": "Tabiatdan dasturxoningizga",
-          "caption": "Har bir mahsulotimizda tabiiylik va gʻamxoʻrlik mujassam."
+        "tea": {
+          "title": "Yashil choy — tongning iliq do‘sti",
+          "caption": "Sara tanlangan choy barglari — har qultumda tabiat nafasi."
         },
-        "ecoConcept": {
-          "title": "Ekologik qadoqlash konsepti",
-          "caption": "Hashamat va ekologiya uygʻunligi."
+        "nuts": {
+          "title": "Mazali yong‘oqlar to‘plami",
+          "caption": "Bodom, pista va yong‘oq — kun bo‘yi quvvat beruvchi gazak."
+        },
+        "driedFruits": {
+          "title": "Quruq mevalar xazinasi",
+          "caption": "Tabiiy yo‘l bilan quritilgan, vitaminga boy mevalar."
+        },
+        "allInOne": {
+          "title": "Bir oilada — butun dasturxon",
+          "caption": "Guruch, choy, yong‘oq va quruq mevalar — bir joyda, ishonchli brand."
         }
       }
+    },
+    "categories": {
+      "eyebrow": "Kategoriyalar",
+      "title": "Siz yoqtiradigan mahsulotlarni tanlang",
+      "subtitle": "Har bir kategoriyada tabiat lazzati va sifatli qadoqlash sizni kutmoqda.",
+      "cta": "Ko‘rish",
+      "items": {
+        "rice": "Palov va kundalik taomlar uchun saralangan donalar.",
+        "nuts": "Bodom, pista, yong‘oq — kun bo‘yi quvvat.",
+        "driedFruits": "Vitaminga boy, tabiiy quritilgan mevalar.",
+        "teas": "Xushbo‘y choylar — tongning totli hamrohi."
+      }
+    },
+    "highlights": {
+      "eyebrow": "Nega Nur & Garden?",
+      "title": "Nur & Garden bilan tanishing",
+      "subtitle": "Biz tabiat, sifat va mehmonnavoz uzbek an’analarini bir qadoqqa jo qilamiz.",
+      "items": [
+        {
+          "title": "Tabiat bilan hamkorlik",
+          "description": "Har bir mahsulot sertifikatlangan dehqonlardan — toza va ishonchli.",
+          "button": "Hikoyamiz",
+          "href": "/about"
+        },
+        {
+          "title": "Ko‘p turdagi mahsulot",
+          "description": "Guruch, yong‘oq, quruq meva, choy — hammasi bir joyda.",
+          "button": "Katalog",
+          "href": "/products"
+        },
+        {
+          "title": "Tez yetkazib berish",
+          "description": "O‘zbekiston bo‘ylab tez va ishonchli yetkazib berish xizmati.",
+          "button": "Aloqa",
+          "href": "/contact"
+        }
+      ]
+    },
+    "featured": {
+      "eyebrow": "Bestsellerlar",
+      "title": "Eng ko‘p tanlangan mahsulotlar",
+      "subtitle": "Mijozlarimiz tomonidan yoqtirilgan tanlovlar — siz ham sinab ko‘ring.",
+      "viewAll": "Barcha mahsulotlarni ko‘rish"
     },
     "philosophy": {
       "title": "Bizning falsafamiz",
       "items": {
         "purity": {
           "title": "Har bir donada poklik",
-          "description": "Tabiiylikni asrash uchun sinchkov tanlov."
+          "description": "Tabiiylikni asrash uchun sinchkov tanlov va o‘zbekona mehr."
         },
         "sustainability": {
           "title": "Barqarorlik birinchi o‘rinda",
-          "description": "Har bir hosilda yer va suvga hurmat."
+          "description": "Yer va suvga hurmat — kelajak avlodlar uchun qayg‘urish."
         },
         "care": {
           "title": "Tabiatdan, mehr bilan",
-          "description": "An’ana va ehtirom bilan boshqarilgan mahorat."
+          "description": "An’ana va innovatsiya uyg‘unligidagi haqiqiy mahsulot."
         }
       }
     },
     "process": {
-      "title": "Bizning jarayon",
+      "title": "Donadan dasturxonga — yo‘l",
       "steps": {
         "seed": {
           "title": "Urug‘ tanlash",
-          "description": "Xarakter va sifat uchun merosiy navlarni qo‘lda tanlaymiz."
+          "description": "Sifatli merosiy navlar — ta’mi kuchli, to‘yimli va ishonchli."
         },
         "cultivation": {
           "title": "Tabiiy parvarish",
-          "description": "Quyosh, tuproq va sabr uyg‘unidagi barqaror dehqonchilik."
+          "description": "Quyosh, tuproq va sabr — barqaror dehqonchilik asosida."
         },
         "packaging": {
-          "title": "Qo‘lda qadoqlash",
-          "description": "Har bir partiya e’tibor bilan saralanib, qadoqlanadi."
+          "title": "Toza qadoqlash",
+          "description": "Har bir partiya yangiligi saqlangan holda qadoqlanadi."
         },
         "quality": {
           "title": "Sifat nazorati",
-          "description": "Har bir don Nur & Garden standartlariga mos tekshiriladi."
+          "description": "Har bir mahsulot Nur & Garden standartlariga mos sinaladi."
+        }
+      }
+    },
+    "stats": {
+      "eyebrow": "Raqamlar tilida",
+      "title": "Ishonchga loyiq natijalar",
+      "subtitle": "Mijozlarimiz va hamkorlarimiz bilan birga erishgan o‘sish ko‘rsatkichlarimiz.",
+      "items": [
+        { "value": "150+", "label": "Hamkor dehqonlar" },
+        { "value": "25 000+", "label": "Baxtli mijozlar" },
+        { "value": "4.9★", "label": "O‘rtacha reyting" },
+        { "value": "24/7", "label": "Mijozlar qo‘llab-quvvatlash" }
+      ]
+    },
+    "recipes": {
+      "eyebrow": "Oshxonangizga ilhom",
+      "title": "Oddiy va mazali retseptlar",
+      "subtitle": "Nur & Garden mahsulotlari bilan uchta tez va yoqimli taom.",
+      "minutes": "{{count}} daqiqa",
+      "items": {
+        "pilaf": {
+          "title": "Ideal palov",
+          "description": "Yirik donali guruchimiz bilan ko‘rkam, yog‘i joyida palov.",
+          "steps": [
+            "Guruchni yaxshilab yuving va ivitib qo‘ying",
+            "Sabzi va go‘shtni qizdirilgan yog‘da qovuring",
+            "Guruchni ustiga yoyib, pishirib chiqing"
+          ]
+        },
+        "tea": {
+          "title": "Tiniq yashil choy",
+          "description": "Tongni quvnoq boshlash uchun tabiiy yashil choy.",
+          "steps": [
+            "Suvni 80°C gacha qizdiring",
+            "Barglarni choynakka soling",
+            "3 daqiqa damlab, damini toping"
+          ]
+        },
+        "dessert": {
+          "title": "Yong‘oqli shirinlik",
+          "description": "Quruq mevalar va yong‘oqlar aralashmasidan totli desert.",
+          "steps": [
+            "Asal va yong‘oqni aralashtiring",
+            "Quruq mevalarni qo‘shing",
+            "Muzlatkichda 10 daqiqa sovuting"
+          ]
         }
       }
     },
     "testimonials": {
-      "title": "Fikrlar",
+      "eyebrow": "Mijozlarimiz",
+      "title": "Fikrlar va tajribalar",
+      "subtitle": "Nur & Garden’ni tanlagan mijozlarimiz nima deyishadi.",
       "items": [
         {
           "name": "Dilshod M.",
-          "quote": "Nur & Garden — bu sifat va ishonchni yana dasturxonimizga qaytardi."
+          "quote": "Nur & Garden — bu sifat va ishonchni dasturxonimizga qaytardi. Palov ajoyib chiqadi!"
         },
         {
           "name": "Sofia L.",
-          "quote": "Yuqori ta’mi va nafis taqdimoti har bir ovqatni boyitadi."
+          "quote": "Choyning hidi yangi va tabiiy. Oila bilan har kuni iste’mol qilamiz."
         },
         {
           "name": "Kenji W.",
-          "quote": "Hidi, tuzilmasi, hikoyasi — barchasi mahorat bilan yaratilgan."
+          "quote": "Quruq mevalar to‘plami juda mazali — bolalar ham zavq bilan eyishadi."
         },
         {
           "name": "Amina R.",
-          "quote": "Barqaror yetishtirilgan, did bilan tanlangan. Bizga juda yoqdi."
+          "quote": "Qadoqlash chiroyli, mazasi zo‘r. Sovg‘a qilish uchun ham a’lo tanlov."
+        },
+        {
+          "name": "Bekzod Y.",
+          "quote": "Yong‘oqlari yangi va toza. Brandga ishonchim yanada oshdi."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Ko‘p so‘raladigan savollar",
+      "subtitle": "Nur & Garden haqida bilishingiz kerak bo‘lgan asosiy narsalar.",
+      "items": [
+        {
+          "question": "Mahsulotlaringiz qaerda yetishtiriladi?",
+          "answer": "Asosan O‘zbekistonning Farg‘ona, Samarqand va Qashqadaryo viloyatlaridagi sertifikatlangan xo‘jaliklarda yetishtiriladi."
+        },
+        {
+          "question": "Qadoqlaringiz qanday saqlanadi?",
+          "answer": "Har bir mahsulot oziq-ovqat uchun mo‘ljallangan, xavfsiz va ekologik toza qadoqda, quyosh nurisiz sharoitda saqlanadi."
+        },
+        {
+          "question": "Yetkazib berish qancha vaqt oladi?",
+          "answer": "Toshkent bo‘ylab — 24 soat ichida; boshqa viloyatlarga 1–3 ish kuni oralig‘ida yetkazib beriladi."
+        },
+        {
+          "question": "Ulgurji buyurtma qabul qilasizmi?",
+          "answer": "Ha, restoran va do‘konlar uchun maxsus ulgurji shartlarimiz bor. Aloqa sahifasi orqali murojaat qiling."
+        },
+        {
+          "question": "Mahsulotlaringiz organikmi?",
+          "answer": "Ko‘p mahsulotlarimiz kimyoviy qo‘shimchalarsiz, tabiiy parvarish asosida yetishtiriladi va sifat sinovidan o‘tkaziladi."
         }
       ]
     },
     "partners": {
-      "title": "Hamkorlarimiz"
+      "title": "Bizga ishongan hamkorlar"
+    },
+    "newsletter": {
+      "eyebrow": "Yangiliklar",
+      "title": "Chegirma va retseptlardan xabardor bo‘ling",
+      "subtitle": "Emailingizni qoldiring — yangi mahsulotlar, sovg‘a va retseptlar haqida birinchi bo‘lib bilib oling.",
+      "placeholder": "Email manzilingiz",
+      "button": "Obuna bo‘lish",
+      "success": "Rahmat! Tez orada xabar yuboramiz."
     },
     "cta": {
-      "title": "Tabiatni dasturxoningizga olib keling.",
-      "button": "Bog‘lanish"
-    },
-    "highlights": {
-      "title": "Nur & Garden bilan tanishing",
-      "items": [
-        {
-          "title": "Bizning merosimiz",
-          "description": "An’ana va innovatsiya qanday uyg‘unligini yaqindan bilib oling.",
-          "button": "Batafsil o‘qish",
-          "href": "/about"
-        },
-        {
-          "title": "Mahsulot kolleksiyasi",
-          "description": "Hashamatli dasturxon uchun yaratilgan guruch tanlovini kashf eting.",
-          "button": "Mahsulotlar",
-          "href": "/products"
-        },
-        {
-          "title": "Biz bilan bog‘laning",
-          "description": "Birgalikda esda qolarli taomlar yaratish uchun hoziroq yozing.",
-          "button": "Aloqa",
-          "href": "/contact"
-        }
-      ]
+      "eyebrow": "Tayyormisiz?",
+      "title": "Tabiatni dasturxoningizga olib keling",
+      "subtitle": "Yirik buyurtma yoki restoran uchun hamkorlik — biz bilan bog‘laning.",
+      "button": "Bog‘lanish",
+      "secondary": "Mahsulotlarni ko‘rish"
     }
   },
   "footer": {
-    "contact": "Kontaktlar",
+    "tagline": "Tabiatdan tanlangan, sifat bilan qadoqlangan — guruch, yong‘oq, quruq meva va choylar.",
+    "nav": "Navigatsiya",
+    "catalog": "Katalog",
+    "contact": "Aloqa",
     "rights": "© 2025 Nur & Garden. Barcha huquqlar himoyalangan."
   },
   "about": {
     "heroTitle": "Nur & Garden haqida",
-    "heroSubtitle": "Tabiatga hurmat, anʼanaga sodiqlik, meʼyorli hashamat.",
+    "heroSubtitle": "Tabiatga hurmat, an’anaga sodiqlik, quvnoq va sifatli mahsulotlar.",
     "ourStory": {
       "title": "Bizning hikoyamiz",
-      "body": "Nur & Garden brendi Samarqandning serhosil yerlarida tugʻildi. Har bir don guruch tabiatning sabr-toqatli mevasidir. Biz avlodlar davomida shakllangan tajribani zamonaviy texnologiyalar bilan uygʻunlashtirib, mukammal taʼm va yuqori sifatni taʼminlaymiz."
+      "body": "Nur & Garden O‘zbekistonning serquyosh yerlarida tug‘ilgan oilaviy brand. Guruch, yong‘oq, quruq meva va choylarni tabiiy holida, ehtirom bilan sizga yetkazish — bizning vazifamiz."
     },
     "ourValues": {
       "title": "Qadriyatlarimiz",
       "items": {
         "quality": {
           "title": "Sifat",
-          "description": "Biz har bir bosqichni sinchiklab nazorat qilamiz."
+          "description": "Har bir bosqichni sinchiklab nazorat qilamiz — dalalardan qadoqqacha."
         },
         "sustainability": {
           "title": "Barqarorlik",
-          "description": "Yerga eʼtibor va kelajak avlod uchun masʼuliyat."
+          "description": "Yerga e’tibor va kelajak avlod uchun mas’uliyat — doimiy prioritet."
         },
         "tradition": {
-          "title": "Anʼana",
-          "description": "Oilaviy meros va milliy madaniyatdan ilhom."
+          "title": "An’ana",
+          "description": "Oilaviy meros va milliy madaniyatdan ilhomlangan tajriba."
         }
       }
     },
     "mission": {
       "title": "Missiyamiz",
       "paragraphs": [
-        "Nur & Garden ning maqsadi — Oʻzbekistonda yetishtirilgan guruchning nafisligini dunyoga ulashishdir. Biz yerga ehtirom bilan yondashadigan dehqonlar bilan uzoq muddatli hamkorlikni rivojlantiramiz.",
-        "Har bir partiya urugʻ tanlashdan tortib sayqal berishgacha boʻlgan oilaviy mahorat mahsulidir. Oddiy donni hashamatli taomga aylantirish uchun jarayonning har bosqichiga eʼtibor qaratamiz.",
-        "Biz uchun hashamat — tabiiylik va halollik bilan uygʻunlikdir. Shu sabab Lazer guruchi kelib chiqishi aniq, tabiatga hurmatli va har bir oshxonada ishonchli tanlov bo‘lib qoladi."
+        "O‘zbekistonning eng yaxshi mahsulotlarini har bir oilaga yetkazish — bizning bosh maqsadimiz. Sodda, ochiq va quvnoq.",
+        "Biz dehqonlar bilan uzoq muddatli hamkorlik qilamiz va har bir partiya uchun adolatli narxni ta’minlaymiz.",
+        "Nur & Garden siz uchun — sifat, ishonch va kun bo‘yi kuch beruvchi lazzat."
       ]
     },
     "craft": {
@@ -159,15 +285,15 @@
       "items": [
         {
           "title": "Tanlab ekish",
-          "description": "Merosiy urugʻlar kichik maydonlarga ekiladi, suv va oziqlanish jarayoni bosqichma-bosqich kuzatiladi."
+          "description": "Merosiy urug‘lar kichik maydonlarga ekiladi, parvarish bosqichma-bosqich kuzatiladi."
         },
         {
           "title": "Sekin yetiltirish",
-          "description": "Donlar quyoshda ehtiyotkorlik bilan quritiladi, tabiiy yogʻlari saqlangan holda tozalab sayqal beriladi."
+          "description": "Donlar tabiiy yog‘larini saqlagan holda tozalab sayqal beriladi."
         },
         {
           "title": "Ustalar sayqali",
-          "description": "Sayqal berish uskunalari qoʻlda sozlanadi, shuning uchun Lazer oʻzining yorqin jilosi va butun shaklini saqlab qoladi."
+          "description": "Sayqal berish qo‘lda sozlanadi, shu sabab mahsulot yorqin va sog‘lom bo‘lib qoladi."
         }
       ]
     },
@@ -176,22 +302,22 @@
       {
         "year": "1987",
         "title": "Oilaviy boshlanish",
-        "description": "Fargʻonadagi asoschilar guruchni anʼanaviy quritish va sayqal berish uslublari bilan tiklashdi."
+        "description": "Farg‘onadagi asoschilar guruch va don mahsulotlarini an’anaviy yo‘l bilan yetkazishni boshlashdi."
       },
       {
         "year": "2002",
-        "title": "Barqarorlik majburiyati",
-        "description": "Hamkor xoʻjaliklarimizda suvni tejaydigan sugʻorish va kimyoviy moddasiz parvarish tizimi joriy etildi."
+        "title": "Barqarorlik",
+        "description": "Hamkor xo‘jaliklarda tejamkor sug‘orish va kimyoviy moddasiz parvarish tizimi joriy etildi."
       },
       {
         "year": "2015",
-        "title": "Sayqal ustaxonasi",
-        "description": "Maxsus sayqal berish atelyesi ishga tushdi va cheklangan partiyalar yuqori aniqlikda tayyorlana boshlandi."
+        "title": "Yangi mahsulotlar",
+        "description": "Yong‘oq, quruq meva va choy yo‘nalishlari katalogimizga qo‘shildi."
       },
       {
         "year": "2024",
-        "title": "Global taqdimot",
-        "description": "Lazer guruchi xalqaro bozorga taqdim etildi, ammo boutique hajm va haqiqiy hikoyani saqlab qoldi."
+        "title": "Brand yangilanishi",
+        "description": "Yangi qadoqlash va zamonaviy brand dizayn bilan yangi bozorlarga chiqdik."
       }
     ],
     "commitments": {
@@ -199,22 +325,23 @@
       "items": [
         {
           "title": "Izlanadigan manba",
-          "description": "Har bir partiya ko‘chatzor va hosil sanasiga qadar belgilab boriladi — hamkorlarimiz mahsulot qayerdan kelganini aniq biladi."
+          "description": "Har bir partiya ko‘chatzor va hosil sanasiga qadar belgilab boriladi."
         },
         {
-          "title": "Masʼuliyatli taʼminot",
-          "description": "Dehqonlarni o‘qitish, sug‘orish texnologiyalari va adolatli narxlar orqali qishloq hamjamiyatlarini qo‘llab-quvvatlaymiz."
+          "title": "Mas’uliyatli ta’minot",
+          "description": "Dehqonlar bilan uzoq muddatli hamkorlik va adolatli narxlar."
         },
         {
           "title": "Barqaror sifat",
-          "description": "Qadoqlashdan avval bir nechta taʼm va tekstura sinovlari o‘tkaziladi — Lazer har qanday oshxonada bir xil natija beradi."
+          "description": "Qadoqlashdan avval bir nechta ta’m va xavfsizlik sinovlari o‘tkaziladi."
         }
       ]
     }
   },
   "products": {
-    "heroTitle": "Mahsulotlarimiz",
-    "heroSubtitle": "Lazer guruchi — hashamatli taomlar uchun tayyorlangan jarangdor nav.",
+    "heroEyebrow": "Katalog",
+    "heroTitle": "Nur & Garden mahsulotlari",
+    "heroSubtitle": "Guruch, yong‘oq, quruq meva va choylar — har bir oilaning sevimlisi.",
     "filters": {
       "searchPlaceholder": "Mahsulotni qidirish...",
       "categoryLabel": "Kategoriyalar",
@@ -222,37 +349,37 @@
     },
     "detailLabels": {
       "origin": "Kelib chiqishi",
-      "notes": "Taʼm eslatmalari",
+      "notes": "Ta’m eslatmalari",
       "pairing": "Mos taomlar",
       "sizes": "Qadoqlash variantlari"
     },
     "categories": {
       "all": "Barchasi",
       "rice": "Guruchlar",
-      "nuts": "Yong'oqlar",
+      "nuts": "Yong‘oqlar",
       "driedFruits": "Quruq mevalar",
       "teas": "Choylar"
     },
     "cards": {
       "lazer": {
         "name": "Lazer guruchi",
-        "description": "Yorqin jiloga ega, taʼmi barqaror va nafis guruch navimiz."
+        "description": "Yirik donali, tabiiy va lazzatli palov uchun ideal guruch."
       },
       "almondPremium": {
         "name": "Premium Bodom",
-        "description": "Tabiiy, qo'lda tanlangan, yuqori sifatli bodom yadrolari."
+        "description": "Tabiiy, qo‘lda tanlangan, yuqori sifatli bodom yadrolari."
       },
       "walnutSelect": {
-        "name": "Tanlangan Yongoq",
-        "description": "To'liq pishgan, xushbo'y va foydali yongoq yadrolari."
+        "name": "Tanlangan Yong‘oq",
+        "description": "To‘liq pishgan, xushbo‘y va foydali yong‘oq yadrolari."
       },
       "pistachioRoyal": {
         "name": "Royal Pista",
-        "description": "Yashil rangli, tuzilgan va mazali pista yadrolari."
+        "description": "Yashil rangli, tuzli va mazali pista yadrolari."
       },
       "driedFruitsMix": {
         "name": "Quruq mevalar aralashmasi",
-        "description": "Tabiiy quritilgan, vitaminlarga boy mevalar aralashmasi."
+        "description": "Tabiiy quritilgan, vitaminga boy mevalar aralashmasi."
       },
       "greenTeaPremium": {
         "name": "Premium Yashil choy",
@@ -262,46 +389,48 @@
     "cta": "Batafsil",
     "details": {
       "lazer": {
-        "story": "Lazer guruchi urugʻdan boshlab to taom dasturxonga kelguniga qadar Oʻzbekiston mehmondoʻstligini aks ettiradi. Fargʻona vodiysidagi oilalar daraxtzorlar oraligʻida maydonlarni asrab-avaylaydi, hosilni ehtiyotkorlik bilan yigʻib, toshlardan tozalaydi va toza buloq suvida chayishadi.",
-        "longDescription": "Maxsus sayqal berish jarayonida har bir don o‘zining tabiiy yogʻini saqlab qoladi, shu bois pishirilganda ham yaltirab, taʼmi yoʻqolmaydi. Lazer guruchi don-don bo‘lib turadi, ziravorlarni bir tekis singdiradi va hashamatli dasturxonlar hamda uy bayramlarining asosiy yulduziga aylanadi.",
-        "origin": "Fargʻona vodiysi, O‘zbekiston",
+        "story": "Lazer guruchi urug‘dan dasturxonga qadar O‘zbekiston mehmondo‘stligini aks ettiradi. Farg‘ona vodiysidagi oilalar maydonlarni asrab-avaylashadi.",
+        "longDescription": "Yirik donali, oq va toza; palovda yog‘i joyida bo‘ladi, sabzavot va go‘shtni yaxshi singdiradi. Kundalik foydalanish va bayram taomlari uchun mos.",
+        "origin": "Farg‘ona vodiysi, O‘zbekiston",
         "notes": [
-          "Yorqin, oppoq jiloli don",
-          "Yengil yongʻoqsimon taʼm va muvozanatli tekstura",
-          "Palov va bugʻda pishiriladigan taomlar uchun ideal"
+          "Yirik, oq va toza don",
+          "Yengil yong‘oqsimon ta’m",
+          "Palov va bug‘da pishiriladigan taomlar uchun ideal"
         ],
         "pairing": [
-          "Anʼanaviy oʻzbek palovi",
-          "Yengil bugʻda pishiriladigan taomlar",
-          "Sabzavotli va goʻshtli likoplar"
+          "An’anaviy o‘zbek palovi",
+          "Bug‘da pishirilgan taomlar",
+          "Sabzavotli va go‘shtli likoplar"
         ],
         "sizes": [
           {
             "title": "1 kg qadoq",
-            "description": "Kichik doʻkonlar va uyda sinab koʻrish uchun qulay.",
-            "image": "/assets/products/lazer-1kg.svg"
+            "description": "Kichik do‘konlar va uyda sinab ko‘rish uchun qulay."
           },
           {
             "title": "3 kg oilaviy qadoq",
-            "description": "Restoranlar va haftalik menyu uchun balansli hajm.",
-            "image": "/assets/products/lazer-3kg.svg"
+            "description": "Haftalik menyu uchun balansli hajm."
           },
           {
             "title": "5 kg HoReCa qadoq",
-            "description": "Professional oshxonalar uchun yuqori hajmli variant.",
-            "image": "/assets/products/lazer-5kg.svg"
+            "description": "Restoran va oshxonalar uchun yuqori hajmli variant."
           }
         ]
       }
     }
   },
+  "productDetail": {
+    "orderCta": "Hozir buyurtma berish",
+    "relatedEyebrow": "Balki yoqar",
+    "relatedTitle": "Shu kategoriyadan boshqa mahsulotlar"
+  },
   "contact": {
-    "heroTitle": "Biz bilan bogʻlaning",
-    "detailsTitle": "Aloqa maʼlumotlari",
+    "heroTitle": "Biz bilan bog‘laning",
+    "detailsTitle": "Aloqa ma’lumotlari",
     "phone": "Telefon",
     "email": "Email",
     "address": "Manzil",
-    "addressValue": "Samarqand, Oʻzbekiston",
+    "addressValue": "Samarqand, O‘zbekiston",
     "form": {
       "name": "Ism",
       "email": "Email",
@@ -314,11 +443,11 @@
     "heroTitle": "Nur & Garden galereyasi",
     "heroSubtitle": "Tabiiylik va estetikani real kadrlarda his eting.",
     "captions": {
-      "atelier": "Atelyedagi qadoqlash jarayoni",
+      "atelier": "Qadoqlash jarayoni",
       "fields": "Samarqand dalalaridagi tong",
       "packaging": "Ekologik qadoqlash detali",
-      "table": "Minimalist dasturxon kompozitsiyasi",
-      "grain": "Guruch donlarining yaqin ko‘rinishi",
+      "table": "Oilaviy dasturxon",
+      "grain": "Donlarning yaqin ko‘rinishi",
       "harvest": "Hosil terish onlari"
     }
   },
@@ -330,4 +459,3 @@
     "previous": "Oldingi"
   }
 }
-

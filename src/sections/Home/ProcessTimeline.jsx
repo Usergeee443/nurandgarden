@@ -26,6 +26,7 @@ function ProcessTimeline() {
             <div
               key={key}
               className="home-process__step"
+              data-step={`0${index + 1}`}
               data-aos="fade-up"
               data-aos-delay={index * 120}
             >

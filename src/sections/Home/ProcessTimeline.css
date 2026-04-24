@@ -1,49 +1,88 @@
 .home-process {
-  padding: 6rem 0;
-  background-color: var(--color-surface);
+  padding: clamp(3.5rem, 6vw, 6rem) 0;
+  background: var(--color-surface-blue);
+  position: relative;
+  overflow: hidden;
+}
+
+.home-process::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at 90% 10%, rgba(30, 167, 232, 0.2), transparent 40%),
+    radial-gradient(circle at 10% 90%, rgba(255, 211, 0, 0.22), transparent 45%);
+  pointer-events: none;
 }
 
 .home-process__inner {
-  width: min(1120px, 94vw);
+  width: min(1180px, 94vw);
   margin: 0 auto;
   display: grid;
-  gap: 3rem;
+  gap: 2.5rem;
+  position: relative;
+  z-index: 1;
 }
 
 .home-process__inner h2 {
-  font-size: clamp(2.25rem, 5vw, 3.5rem);
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  font-size: clamp(2rem, 4.5vw, 3rem);
   text-align: center;
 }
 
 .home-process__timeline {
   display: grid;
-  gap: 2rem;
+  gap: 1.25rem;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   position: relative;
 }
 
 .home-process__step {
-  background-color: #ffffff;
-  border: 1px solid rgba(60, 60, 60, 0.12);
-  padding: 2.25rem 1.9rem;
+  background: #ffffff;
+  border-radius: var(--radius-lg);
+  padding: 1.75rem 1.5rem;
   display: grid;
-  gap: 1.25rem;
-  justify-items: center;
-  text-align: center;
+  gap: 0.9rem;
+  justify-items: flex-start;
+  text-align: left;
   position: relative;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+  transition: transform var(--transition-bounce), box-shadow var(--transition-base);
 }
+
+.home-process__step:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lift);
+}
+
+.home-process__step::before {
+  content: attr(data-step);
+  position: absolute;
+  top: -14px;
+  left: 20px;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.85rem;
+  background: var(--color-primary);
+  color: var(--color-text-primary);
+  box-shadow: var(--shadow-soft);
+}
+
+.home-process__step:nth-child(1)::before { background: var(--color-primary); }
+.home-process__step:nth-child(2)::before { background: var(--color-secondary); color: #fff; }
+.home-process__step:nth-child(3)::before { background: var(--color-accent); color: #fff; }
+.home-process__step:nth-child(4)::before { background: var(--color-coral); color: #fff; }
 
 .home-process__step::after {
   content: "";
   position: absolute;
   top: 50%;
-  right: -1rem;
-  width: 2rem;
-  height: 1px;
-  background-color: rgba(60, 60, 60, 0.2);
-  transform: translateY(-50%);
+  right: -1.25rem;
+  width: 1.25rem;
+  height: 2px;
+  background: rgba(31, 36, 48, 0.18);
+  border-radius: 2px;
 }
 
 .home-process__step:last-child::after {
@@ -51,28 +90,33 @@
 }
 
 .home-process__icon {
-  width: 56px;
-  height: 56px;
-  border: 1px solid rgba(60, 60, 60, 0.15);
-  display: inline-grid;
+  width: 58px;
+  height: 58px;
+  display: grid;
   place-items: center;
+  border-radius: 18px;
+  background: rgba(255, 211, 0, 0.25);
 }
 
+.home-process__step:nth-child(2) .home-process__icon { background: rgba(31, 178, 90, 0.18); }
+.home-process__step:nth-child(3) .home-process__icon { background: rgba(30, 167, 232, 0.18); }
+.home-process__step:nth-child(4) .home-process__icon { background: rgba(255, 106, 77, 0.18); }
+
 .home-process__icon img {
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
 }
 
 .home-process__content h3 {
-  font-size: 1.2rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  margin-bottom: 0.75rem;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
 }
 
 .home-process__content p {
-  font-size: 1.02rem;
-  line-height: 1.8;
+  font-size: 0.95rem;
+  line-height: 1.7;
   color: var(--color-text-muted);
 }
 
@@ -82,27 +126,12 @@
   }
 
   .home-process__step::after {
-    right: -0.5rem;
-    width: 1rem;
+    content: none;
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 560px) {
   .home-process__timeline {
     grid-template-columns: 1fr;
   }
-
-  .home-process__step {
-    text-align: left;
-    justify-items: start;
-  }
-
-  .home-process__step::after {
-    content: none;
-  }
-
-  .home-process__content {
-    text-align: left;
-  }
 }
-

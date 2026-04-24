@@ -1,7 +1,7 @@
 {
   "brand": {
     "name": "Nur & Garden",
-    "tagline": "Where luxury meets nature"
+    "tagline": "From nature to your table"
   },
   "navigation": {
     "home": "Home",
@@ -10,290 +10,276 @@
     "contact": "Contact",
     "gallery": "Gallery"
   },
+  "header": {
+    "orderCta": "Order now"
+  },
   "home": {
     "hero": {
-      "scrollHint": "Scroll down",
+      "eyebrow": "Nur & Garden collection",
+      "primaryCta": "Explore products",
+      "secondaryCta": "About brand",
       "slides": {
-        "luxuryGarden": {
-          "title": "Luxury in every grain",
-          "caption": "Discover our premium rice collection."
+        "rice": {
+          "title": "Natural rice, flavor in every grain",
+          "caption": "Clean, long-grain rice — ideal for pilaf and everyday meals."
         },
-        "fromNature": {
-          "title": "From nature to your table",
-          "caption": "Pure care and authenticity in every product."
+        "tea": {
+          "title": "Green tea — a warm friend of the morning",
+          "caption": "Hand-picked tea leaves — a sip of nature in every cup."
         },
-        "ecoConcept": {
-          "title": "Eco concept packaging",
-          "caption": "Balancing refinement and sustainability."
+        "nuts": {
+          "title": "Delicious nuts for the whole family",
+          "caption": "Almonds, pistachios, walnuts — energy for the entire day."
+        },
+        "driedFruits": {
+          "title": "Treasure of dried fruits",
+          "caption": "Naturally dried, vitamin-rich fruits."
+        },
+        "allInOne": {
+          "title": "One brand — the whole table",
+          "caption": "Rice, tea, nuts and dried fruits — all in one place."
         }
       }
     },
-    "philosophy": {
-      "title": "Our Philosophy",
+    "categories": {
+      "eyebrow": "Categories",
+      "title": "Pick the products you love",
+      "subtitle": "Every category brings natural taste and great packaging.",
+      "cta": "Explore",
       "items": {
-        "purity": {
-          "title": "Purity in Every Grain",
-          "description": "Meticulous selection to preserve natural essence."
+        "rice": "Selected grains for pilaf and everyday meals.",
+        "nuts": "Almond, pistachio, walnut — energy all day long.",
+        "driedFruits": "Naturally dried, rich in vitamins.",
+        "teas": "Fragrant teas — a companion for warm mornings."
+      }
+    },
+    "highlights": {
+      "eyebrow": "Why Nur & Garden?",
+      "title": "Meet Nur & Garden",
+      "subtitle": "We combine nature, quality and Uzbek hospitality in a single pack.",
+      "items": [
+        {
+          "title": "Partnering with nature",
+          "description": "Every product is sourced from certified farmers — pure and trusted.",
+          "button": "Our story",
+          "href": "/about"
         },
-        "sustainability": {
-          "title": "Sustainability First",
-          "description": "We honor soil and water with every harvest."
+        {
+          "title": "A wide assortment",
+          "description": "Rice, nuts, dried fruits, tea — all in one place.",
+          "button": "Catalog",
+          "href": "/products"
         },
-        "care": {
-          "title": "From Nature, With Care",
-          "description": "Craftsmanship guided by tradition and respect."
+        {
+          "title": "Fast delivery",
+          "description": "Fast and reliable delivery across Uzbekistan.",
+          "button": "Contact",
+          "href": "/contact"
         }
+      ]
+    },
+    "featured": {
+      "eyebrow": "Bestsellers",
+      "title": "Most loved products",
+      "subtitle": "Chosen by our customers — give them a try.",
+      "viewAll": "View all products"
+    },
+    "philosophy": {
+      "title": "Our philosophy",
+      "items": {
+        "purity": { "title": "Purity in every grain", "description": "Meticulous selection to keep it real." },
+        "sustainability": { "title": "Sustainability first", "description": "We honor the soil and water for the next generation." },
+        "care": { "title": "From nature, with care", "description": "Tradition and innovation in a real product." }
       }
     },
     "process": {
-      "title": "Our Process",
+      "title": "From grain to table",
       "steps": {
-        "seed": {
-          "title": "Seed Selection",
-          "description": "We hand-pick heritage varieties for character and quality."
+        "seed": { "title": "Seed selection", "description": "Heirloom varieties with rich flavor and nutrition." },
+        "cultivation": { "title": "Natural care", "description": "Sun, soil and patience — sustainable farming." },
+        "packaging": { "title": "Clean packaging", "description": "Each batch is packed with freshness locked in." },
+        "quality": { "title": "Quality control", "description": "Every product passes Nur & Garden standards." }
+      }
+    },
+    "stats": {
+      "eyebrow": "In numbers",
+      "title": "Results worth trusting",
+      "subtitle": "Growth we achieved with our customers and partners.",
+      "items": [
+        { "value": "150+", "label": "Partner farmers" },
+        { "value": "25,000+", "label": "Happy customers" },
+        { "value": "4.9★", "label": "Average rating" },
+        { "value": "24/7", "label": "Customer support" }
+      ]
+    },
+    "recipes": {
+      "eyebrow": "Kitchen inspiration",
+      "title": "Simple and tasty recipes",
+      "subtitle": "Three quick ideas with Nur & Garden products.",
+      "minutes": "{{count}} min",
+      "items": {
+        "pilaf": {
+          "title": "Perfect pilaf",
+          "description": "A fluffy, aromatic pilaf with our long-grain rice.",
+          "steps": ["Rinse and soak the rice", "Sauté carrot and meat in hot oil", "Add rice and cook to perfection"]
         },
-        "cultivation": {
-          "title": "Natural Cultivation",
-          "description": "Sustainable farming nurtured by sun, soil, and patience."
+        "tea": {
+          "title": "Bright green tea",
+          "description": "Start the day with natural green tea.",
+          "steps": ["Heat water to 80°C", "Put leaves into the teapot", "Steep for 3 minutes"]
         },
-        "packaging": {
-          "title": "Hand Packaging",
-          "description": "Each batch is refined and packaged with human attention."
-        },
-        "quality": {
-          "title": "Quality Control",
-          "description": "Every grain is inspected to uphold Nur & Garden standards."
+        "dessert": {
+          "title": "Nutty treat",
+          "description": "A sweet blend of dried fruits and nuts.",
+          "steps": ["Mix honey with nuts", "Add dried fruits", "Chill for 10 minutes"]
         }
       }
     },
     "testimonials": {
-      "title": "Testimonials",
+      "eyebrow": "Customers",
+      "title": "Stories and impressions",
+      "subtitle": "What people say about Nur & Garden.",
       "items": [
-        {
-          "name": "Dilshod M.",
-          "quote": "Nur & Garden brings a sense of trust back to our family table."
-        },
-        {
-          "name": "Sofia L.",
-          "quote": "Refined taste and elegant presentation — it elevates every meal."
-        },
-        {
-          "name": "Kenji W.",
-          "quote": "The aroma, the texture, the story — everything feels crafted."
-        },
-        {
-          "name": "Amina R.",
-          "quote": "Sustainably grown and beautifully curated. We love it."
-        }
+        { "name": "Dilshod M.", "quote": "Nur & Garden brought quality and trust back to our table. Amazing pilaf!" },
+        { "name": "Sofia L.", "quote": "The tea smells so fresh and natural. We drink it every day with family." },
+        { "name": "Kenji W.", "quote": "The dried fruit mix is delicious — even the kids love it." },
+        { "name": "Amina R.", "quote": "Lovely packaging, great taste. Also a wonderful gift." },
+        { "name": "Bekzod Y.", "quote": "Nuts are fresh and clean. My trust in the brand only grew." }
       ]
     },
-    "partners": {
-      "title": "Our Partners"
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "subtitle": "The essentials about Nur & Garden.",
+      "items": [
+        { "question": "Where are your products grown?", "answer": "In certified farms across Fergana, Samarkand and Kashkadarya regions of Uzbekistan." },
+        { "question": "How are the packs stored?", "answer": "Food-safe, eco-friendly packs stored away from direct sunlight." },
+        { "question": "How long does delivery take?", "answer": "Tashkent — within 24 hours; other regions — 1–3 working days." },
+        { "question": "Do you accept wholesale orders?", "answer": "Yes, we offer special terms for restaurants and retailers. Contact us via the Contact page." },
+        { "question": "Are your products organic?", "answer": "Most products are grown without chemical additives and go through quality checks." }
+      ]
+    },
+    "partners": { "title": "Partners who trust us" },
+    "newsletter": {
+      "eyebrow": "News",
+      "title": "Stay in the loop for offers and recipes",
+      "subtitle": "Drop your email — be the first to learn about new products, gifts and recipes.",
+      "placeholder": "Your email",
+      "button": "Subscribe",
+      "success": "Thank you! We will be in touch soon."
     },
     "cta": {
-      "title": "Bring Nature to Your Table.",
-      "button": "Contact Us"
-    },
-    "highlights": {
-      "title": "Discover Nur & Garden",
-      "items": [
-        {
-          "title": "About Our Legacy",
-          "description": "Step into our story to see how tradition and innovation meet.",
-          "button": "Read More",
-          "href": "/about"
-        },
-        {
-          "title": "Explore The Collection",
-          "description": "Meet the curated rice selection designed for elevated dining.",
-          "button": "View Products",
-          "href": "/products"
-        },
-        {
-          "title": "Connect With Us",
-          "description": "Let’s create memorable experiences together — start the conversation.",
-          "button": "Get in Touch",
-          "href": "/contact"
-        }
-      ]
+      "eyebrow": "Ready?",
+      "title": "Bring nature to your table",
+      "subtitle": "Large orders or restaurant partnerships — reach out anytime.",
+      "button": "Get in touch",
+      "secondary": "Explore products"
     }
   },
   "footer": {
-    "contact": "Contacts",
+    "tagline": "Selected by nature, packed with quality — rice, nuts, dried fruits and teas.",
+    "nav": "Navigation",
+    "catalog": "Catalog",
+    "contact": "Contact",
     "rights": "© 2025 Nur & Garden. All rights reserved."
   },
   "about": {
     "heroTitle": "About Nur & Garden",
-    "heroSubtitle": "Respect for nature, devotion to tradition, understated luxury.",
+    "heroSubtitle": "Respect for nature, loyalty to tradition, joyful and quality products.",
     "ourStory": {
       "title": "Our story",
-      "body": "Nur & Garden was born on the fertile lands of Samarkand. Each grain of rice is the patient gift of nature. We blend generational expertise with contemporary technology to deliver impeccable taste and enduring quality."
+      "body": "Nur & Garden is a family brand born on the sunny fields of Uzbekistan — delivering natural products with care."
     },
     "ourValues": {
       "title": "Our values",
       "items": {
-        "quality": {
-          "title": "Quality",
-          "description": "Meticulous control at every stage of production."
-        },
-        "sustainability": {
-          "title": "Sustainability",
-          "description": "Caring for the soil and future generations."
-        },
-        "tradition": {
-          "title": "Tradition",
-          "description": "Inspired by family heritage and culture."
-        }
+        "quality": { "title": "Quality", "description": "We control every step — from field to pack." },
+        "sustainability": { "title": "Sustainability", "description": "Care for the land and responsibility for tomorrow." },
+        "tradition": { "title": "Tradition", "description": "Experience inspired by family heritage and culture." }
       }
     },
     "mission": {
       "title": "Our mission",
       "paragraphs": [
-        "Nur & Garden exists to share the elegance of Uzbek rice with the world. We cultivate longstanding relationships with farmers who treat the soil as a living legacy, not a resource to be exhausted.",
-        "Every batch that leaves our mill is a reflection of family craft. From seed selection to the final polish, we elevate humble grain into a refined culinary experience.",
-        "We believe that luxury should feel grounded. That is why Lazer rice is transparent in origin, respectful of nature and consistent in every kitchen."
+        "Delivering the best of Uzbekistan to every family — simple, open and warm.",
+        "We partner with farmers long-term and ensure fair prices.",
+        "Nur & Garden — quality, trust and daily energy."
       ]
     },
     "craft": {
       "title": "Craft behind every grain",
       "items": [
-        {
-          "title": "Selective farming",
-          "description": "Heritage seeds are planted in small lots so we can monitor water, nutrients and growth at every stage."
-        },
-        {
-          "title": "Slow maturation",
-          "description": "Grains are sun-cured and husked in batches, preserving the natural oils that carry aroma and flavour."
-        },
-        {
-          "title": "Polished by artisans",
-          "description": "Our millers work with hand-adjusted equipment, achieving the signature Lazer sheen without damaging the grain."
-        }
+        { "title": "Selective planting", "description": "Heirloom seeds in small fields, careful step-by-step care." },
+        { "title": "Slow maturing", "description": "Grains keep natural oils, polished gently." },
+        { "title": "Handcrafted polish", "description": "Equipment tuned by hand — vibrant, healthy product." }
       ]
     },
-    "timelineTitle": "Milestones of Nur & Garden",
+    "timelineTitle": "Key milestones",
     "timeline": [
-      {
-        "year": "1987",
-        "title": "Family beginnings",
-        "description": "Our founders in Fergana reintroduced traditional drying and polishing methods to keep rice aromatic."
-      },
-      {
-        "year": "2002",
-        "title": "Sustainable pledge",
-        "description": "We converted our partner farms to water-efficient irrigation and chemical-free soil care."
-      },
-      {
-        "year": "2015",
-        "title": "Craft mill expansion",
-        "description": "A dedicated polishing atelier opened, enabling limited batches with precision finishing."
-      },
-      {
-        "year": "2024",
-        "title": "Global launch",
-        "description": "Lazer rice debuted internationally, keeping its boutique production scale and authentic story."
-      }
+      { "year": "1987", "title": "Family beginnings", "description": "Founders started supplying rice in the Fergana Valley." },
+      { "year": "2002", "title": "Sustainability", "description": "Water-saving irrigation and chemical-free care introduced." },
+      { "year": "2015", "title": "New products", "description": "Nuts, dried fruits and tea lines joined the catalog." },
+      { "year": "2024", "title": "Brand refresh", "description": "New packaging and modern identity — entering new markets." }
     ],
     "commitments": {
-      "title": "Our assurances",
+      "title": "Our commitments",
       "items": [
-        {
-          "title": "Traceable origin",
-          "description": "Every lot is tagged to its micro-farm and harvest date, so partners know exactly where their rice begins."
-        },
-        {
-          "title": "Responsible supply",
-          "description": "We invest in farmer training, irrigation technology and fair pricing to keep rural communities thriving."
-        },
-        {
-          "title": "Consistent quality",
-          "description": "Multiple taste and texture tests are performed before packaging, ensuring Lazer cooks the same in every kitchen."
-        }
+        { "title": "Traceable source", "description": "Each batch is tracked to planting and harvest." },
+        { "title": "Responsible sourcing", "description": "Long-term partnerships and fair pricing." },
+        { "title": "Consistent quality", "description": "Multiple taste and safety checks before packing." }
       ]
     }
   },
   "products": {
-    "heroTitle": "Our products",
-    "heroSubtitle": "Lazer rice, polished for refined dining and professional kitchens.",
+    "heroEyebrow": "Catalog",
+    "heroTitle": "Nur & Garden products",
+    "heroSubtitle": "Rice, nuts, dried fruits and teas — a favorite in every home.",
     "filters": {
       "searchPlaceholder": "Search products...",
       "categoryLabel": "Categories",
-      "noResults": "No products matched your search."
+      "noResults": "No products found."
     },
     "detailLabels": {
       "origin": "Origin",
       "notes": "Tasting notes",
-      "pairing": "Pairing suggestions",
-      "sizes": "Available packages"
+      "pairing": "Pairs well with",
+      "sizes": "Packaging sizes"
     },
     "categories": {
       "all": "All",
-      "rice": "Rice Collection",
+      "rice": "Rice",
       "nuts": "Nuts",
-      "driedFruits": "Dried Fruits",
+      "driedFruits": "Dried fruits",
       "teas": "Teas"
     },
     "cards": {
-      "lazer": {
-        "name": "Lazer Rice",
-        "description": "Premium Uzbek rice with crystal shine and balanced texture."
-      },
-      "almondPremium": {
-        "name": "Premium Almonds",
-        "description": "Natural, hand-selected, high-quality almond kernels."
-      },
-      "walnutSelect": {
-        "name": "Select Walnuts",
-        "description": "Fully ripened, aromatic and nutritious walnut kernels."
-      },
-      "pistachioRoyal": {
-        "name": "Royal Pistachios",
-        "description": "Green, structured and flavorful pistachio kernels."
-      },
-      "driedFruitsMix": {
-        "name": "Dried Fruits Mix",
-        "description": "Naturally dried, vitamin-rich fruit mix."
-      },
-      "greenTeaPremium": {
-        "name": "Premium Green Tea",
-        "description": "High-quality, natural green tea leaves."
-      }
+      "lazer": { "name": "Lazer rice", "description": "Long-grain, natural and aromatic rice for pilaf." },
+      "almondPremium": { "name": "Premium Almond", "description": "Natural, hand-picked, premium quality almonds." },
+      "walnutSelect": { "name": "Select Walnut", "description": "Fully ripe, fragrant and wholesome walnut kernels." },
+      "pistachioRoyal": { "name": "Royal Pistachio", "description": "Green, salted and delicious pistachios." },
+      "driedFruitsMix": { "name": "Dried Fruits Mix", "description": "Naturally dried, vitamin-rich fruit blend." },
+      "greenTeaPremium": { "name": "Premium Green Tea", "description": "High quality, natural green tea leaves." }
     },
     "cta": "Learn more",
     "details": {
       "lazer": {
-        "story": "From the seed to the steamed platter, Lazer rice embodies the hospitality of Uzbekistan. Families in the Fergana Valley nurture the fields throughout the seasons, letting the grains develop slowly under generous sun. After harvest, the rice is husked in small batches, washed in pure mountain water and gently polished until each grain gleams.",
-        "longDescription": "Because we preserve the natural oils and structure of the grain, Lazer rice remains fragrant, tender and resilient during cooking. It keeps a perfect shape, absorbs spices evenly and brings a subtle glossy finish to every plate — whether it’s a restaurant signature dish or a home celebration.",
+        "story": "Lazer carries the soul of Uzbek hospitality. Families in the Fergana Valley nurture the fields.",
+        "longDescription": "A long white-grain rice with gentle flavor — perfect for pilaf and everyday dishes.",
         "origin": "Fergana Valley, Uzbekistan",
-        "notes": [
-          "Bright white polished grain",
-          "Balanced, lightly nutty flavor",
-          "Consistent texture for pilaf and steamed dishes"
-        ],
-        "pairing": [
-          "Traditional Uzbek plov",
-          "Delicate steamed rice bowls",
-          "Vegetable stews and meat sautés"
-        ],
+        "notes": ["Long white grain", "Mild nutty flavor", "Ideal for pilaf"],
+        "pairing": ["Uzbek pilaf", "Steamed dishes", "Vegetable and meat plates"],
         "sizes": [
-          {
-            "title": "1 kg pouch",
-            "description": "Hand-finished grains for boutique retail shelves and curated home tastings.",
-            "image": "/assets/products/lazer-1kg.svg"
-          },
-          {
-            "title": "3 kg family pack",
-            "description": "Balanced volume for restaurants, cafés and weekly premium menus.",
-            "image": "/assets/products/lazer-3kg.svg"
-          },
-          {
-            "title": "5 kg HoReCa pack",
-            "description": "High-volume packaging optimised for large-scale kitchens and export needs.",
-            "image": "/assets/products/lazer-5kg.svg"
-          }
+          { "title": "1 kg", "description": "Convenient pack for home." },
+          { "title": "3 kg", "description": "Balanced size for a family." },
+          { "title": "5 kg", "description": "For restaurants and kitchens." }
         ]
       }
     }
+  },
+  "productDetail": {
+    "orderCta": "Order now",
+    "relatedEyebrow": "You might also like",
+    "relatedTitle": "More from this category"
   },
   "contact": {
     "heroTitle": "Get in touch",
@@ -307,19 +293,19 @@
       "email": "Email",
       "message": "Message",
       "submit": "Send message",
-      "success": "Your message has been sent successfully."
+      "success": "Your message has been sent."
     }
   },
   "gallery": {
     "heroTitle": "Nur & Garden gallery",
-    "heroSubtitle": "Experience authentic elegance through real imagery.",
+    "heroSubtitle": "Feel the nature and aesthetics in real moments.",
     "captions": {
-      "atelier": "Packaging craft inside the atelier",
-      "fields": "Dawn across Samarkand fields",
-      "packaging": "Detail of our eco packaging",
-      "table": "Minimalist tablescape styling",
-      "grain": "Close-up of polished grains",
-      "harvest": "Harvest moments in motion"
+      "atelier": "Packing process",
+      "fields": "Morning on Samarkand fields",
+      "packaging": "Eco packaging details",
+      "table": "Family table",
+      "grain": "Close-up of grains",
+      "harvest": "Harvest moments"
     }
   },
   "common": {
@@ -330,4 +316,3 @@
     "previous": "Previous"
   }
 }
-

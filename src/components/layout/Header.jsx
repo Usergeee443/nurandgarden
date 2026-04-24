@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import LanguageToggle from "../ui/LanguageToggle";
 import "./Header.css";
@@ -22,38 +22,10 @@ function Header() {
   }, []);
 
   useEffect(() => {
-    let lastScrollY = window.scrollY;
-    let ticking = false;
-
     const handleScroll = () => {
-      if (!ticking) {
-        window.requestAnimationFrame(() => {
-          const currentScrollY = window.scrollY;
-          
-          // Scroll yo'nalishini aniqlash
-          if (currentScrollY < lastScrollY) {
-            // Tepaga scroll qilmoqda
-            setIsScrolled(false);
-          } else if (currentScrollY > lastScrollY && currentScrollY > 50) {
-            // Pastga scroll qilmoqda va 50px dan oshgan
-            setIsScrolled(true);
-          }
-          
-          // Agar eng tepada bo'lsa, header o'z holiga qaytsin
-          if (currentScrollY <= 10) {
-            setIsScrolled(false);
-          }
-
-          lastScrollY = currentScrollY;
-          ticking = false;
-        });
-        ticking = true;
-      }
+      setIsScrolled(window.scrollY > 24);
     };
-
-    // Initial check
     handleScroll();
-
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -88,7 +60,10 @@ function Header() {
           <span />
         </button>
 
-        <nav className={`site-header__nav ${isMenuOpen ? "site-header__nav--open" : ""} ${isScrolled ? "site-header__nav--hidden" : ""}`} aria-label="Asosiy navigatsiya">
+        <nav
+          className={`site-header__nav ${isMenuOpen ? "site-header__nav--open" : ""}`}
+          aria-label="Asosiy navigatsiya"
+        >
           <ul className="site-header__nav-list">
             {navItems.map((item) => (
               <li key={item.to}>
@@ -107,11 +82,17 @@ function Header() {
           </ul>
           <div className="site-header__mobile-controls">
             <LanguageToggle active={activeLang} onChange={(lang) => i18n.changeLanguage(lang)} />
+            <Link to="/contact" className="btn btn--primary btn--sm">
+              {t("header.orderCta")}
+            </Link>
           </div>
         </nav>
 
-        <div className={`site-header__controls ${isScrolled ? "site-header__controls--hidden" : ""}`}>
+        <div className="site-header__controls">
           <LanguageToggle active={activeLang} onChange={(lang) => i18n.changeLanguage(lang)} />
+          <Link to="/contact" className="btn btn--primary btn--sm site-header__cta">
+            {t("header.orderCta")}
+          </Link>
         </div>
       </div>
     </header>
@@ -119,4 +100,3 @@ function Header() {
 }
 
 export default Header;
-
