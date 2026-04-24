@@ -1,6 +1,6 @@
 import lazerImage from "../assets/images/products/Artboard 7.png";
 import teaImage from "../assets/images/products/tea-image.png";
-import nutsImage from "../assets/images/products/nuts-image.png";
+import nutsImage from "../assets/images/products/okokokokkookk.png";
 import driedFruitsImage from "../assets/images/products/dried-fruits-image.png";
 
 export const products = [
